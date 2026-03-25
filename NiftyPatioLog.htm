@@ -1,0 +1,3707 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="JustSystems Homepage Builder Version 18.0.0.1 Trial for Windows">
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<META http-equiv="Content-Style-Type" content="text/css">
+<TITLE>NIftyPatioLog</TITLE>
+<SCRIPT language="JavaScript">
+<!--HPB_SCRIPT_ROV_50
+//
+//  Licensed Materials - Property of IBM
+//  11P5743
+//  (C) Copyright IBM Corp. 1998, 2000 All Rights Reserved.
+//
+
+// HpbImgPreload:
+//
+function HpbImgPreload()
+{
+  var appVer=parseInt(navigator.appVersion);
+  var isNC=(document.layers && (appVer >= 4));
+  var isIE=(document.all    && (appVer >= 4));
+  if (isNC || isIE)
+  {
+    if (document.images)
+    {
+      var imgName = HpbImgPreload.arguments[0];
+      var cnt;
+      swImg[imgName] = new Array;
+      for (cnt = 1; cnt < HpbImgPreload.arguments.length; cnt++)
+      {
+        swImg[imgName][HpbImgPreload.arguments[cnt]] = new Image();
+        swImg[imgName][HpbImgPreload.arguments[cnt]].src = HpbImgPreload.arguments[cnt];
+      }
+    }
+  }
+}
+// HpbImgFind:
+//
+function HpbImgFind(doc, imgName)
+{
+  for (var i=0; i < doc.layers.length; i++)
+  {
+    var img = doc.layers[i].document.images[imgName];
+    if (!img) img = HpbImgFind(doc.layers[i], imgName);
+    if (img) return img;
+  }
+  return null;
+}
+// HpbImgSwap:
+//
+function HpbImgSwap(imgName, imgSrc)
+{
+  var appVer=parseInt(navigator.appVersion);
+  var isNC=(document.layers && (appVer >= 4));
+  var isIE=(document.all    && (appVer >= 4));
+  if (isNC || isIE)
+  {
+    if (document.images)
+    {
+      var img = document.images[imgName];
+      if (!img) img = HpbImgFind(document, imgName);
+      if (img) img.src = imgSrc;
+    }
+  }
+}
+var swImg; swImg=new Array;
+//-->
+</SCRIPT><SCRIPT language="JavaScript">
+<!--HPB_SCRIPT_PLD_50
+HpbImgPreload('_HPB_ROLLOVER55', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER2', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER3', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER4', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER5', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER6', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER7', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER8', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER9', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER10', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER11', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER12', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER13', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER14', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER15', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER16', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER17', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER18', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER19', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER20', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER21', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER22', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER23', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER24', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER25', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER26', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER27', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER28', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER29', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER30', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER31', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER32', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER33', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER34', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER35', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER36', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER37', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER38', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER39', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER40', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER41', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER42', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER43', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER44', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER45', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER46', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER47', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER48', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER49', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER50', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER51', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER52', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER53', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER54', 'logo7.gif', 'logo71.gif');
+HpbImgPreload('_HPB_ROLLOVER1', 'logo7.gif', 'logo71.gif');
+//-->
+</SCRIPT></HEAD>
+<BODY BGPROPERTIES="fixed" background="BackGround/ima2.jpg">
+<P align="right"><a href="index.html">Top </a>&gt; NiftyPatioLog</P>
+<P align="left"><B><FONT color="#ff0000">前置き<BR>
+<BR>
+このページはＨＰ「布施たか　３年１組　吉田組」の基盤、前身であります、<BR>
+「Nifty Patio 布施高37期3-1Home Party」のログ記録です。<BR>
+このログ記録は1997.3.に橋本、野谷、大門にて開始し、将来的には<BR>
+多く３年１組卒業生に参加してもらおうと立ち上げましたが、インターネットの<BR>
+普及に伴い、本目的は「布施たか　３年１組　吉田組」Home Pageに引き継がれ<BR>
+このHome Partyは2000.7.に閉鎖いたしました。結局参加者はこの三名のみでしたが<BR>
+その３年間のログ記録をここに掲示したいと思います。<BR>
+2002.2.10.　大門</FONT></B><BR>
+<IMG src="memories/a_ilst004.gif" width="29" height="34" border="0" align="bottom"><BR>
+＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊<BR>
+<script type="text/javascript"><!--
+google_ad_client = "pub-7802753027391987";
+google_ad_width = 728;
+google_ad_height = 90;
+google_ad_format = "728x90_as";
+google_ad_channel ="";
+google_ad_type = "text_image";
+google_color_border = "A8DDA0";
+google_color_bg = "EBFFED";
+google_color_link = "0000CC";
+google_color_url = "008000";
+google_color_text = "6F6F6F";
+//--></script>
+<SCRIPT type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</SCRIPT>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER55" onmouseout="HpbImgSwap('_HPB_ROLLOVER55', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER55', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER55"></a><BR>
+<BR>
+＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊<BR>
+<BR>
+- MES( 1):ようこそ！布施高校37期生3-1吉田学級へ！ 01/04/11 -<BR>
+ <BR>
+00002/00112 BXL00240 大門　哲士　　　 布施高37期3-1HP、log内容1-25<BR>
+( 1)   97/06/05 15:35<BR>
+<BR>
+001  [97/03/01 22:25]  BXL00240      S.Daimon<BR>
+<BR>
+test test test　テスト　テスト　テスト<BR>
+<BR>
+このホームパーティーは布施高校37期生3-1のホームパーティーです。<BR>
+記入内容には、特に制限ありません。<BR>
+<BR>
+懐かしい昔はなし、近況状況、その他関西芸能関係の話題等、なんでもOKです。<BR>
+<BR>
+どしどし、書き込んで下さい。また、3-1で新しくNIFTYの会員になった人いたら<BR>
+このホームパーティーの存在を連絡してあげて下さい。<BR>
+<BR>
+では、宜しく！！！！！！！！<BR>
+<BR>
+<BR>
+<BR>
+002  [97/03/01 22:27]  BXL00240      はな　寛大に遭遇　S.Daimon<BR>
+<BR>
+前略、どうもです。<BR>
+<BR>
+<BR>
+ところで、<BR>
+先日、用事で大阪に帰った際、鶴橋の二両半というラーメン屋に行ったところ、<BR>
+「はな　寛太、寛大」の寛大の方が、<BR>
+飲み屋のねーちゃんみたいな人を連れてラーメン食ってました。<BR>
+「ちょっと待ってね」とは言ってませんでした。<BR>
+それから、スポーツ新聞によると、中田ラケット氏が先日死去したそうです。<BR>
+では。<BR>
+<BR>
+「しゃーから、ワシ　このしゃれ　言うのん　いやや言うたんや！」<BR>
+by はな　寛太、寛大<BR>
+<BR>
+∈≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡∋<BR>
+　大門　哲士<BR>
+NIFTY-Serve ID:BXL00240<BR>
+E-Mail:daimons@mb.infoeddy.or.jp<BR>
+∈≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡∋<BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER2" onmouseout="HpbImgSwap('_HPB_ROLLOVER2', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER2', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER2"></a><BR>
+<BR>
+<BR>
+004  [97/03/02 21:31]  BXL00240      E-MailでこんなMailが届きました S.Daimon<BR>
+こんにちは。インターネットより私宛に次ぎのようなメールが届きました。2つ後輩の福<BR>
+重さんという人からです。以下、転記内容です。<BR>
+<BR>
+はじめまして.。私 １９８６年 卒業の 福重 修 と申します。<BR>
+突然ですが 私が３年の時 にも確か ’メアリーポピンズ’やってたクラスがあったとお<BR>
+もうのですが．．．。もし私の思い当たるメアリーポピンズのクラスなら  体育やその他ﾅ一緒だったと思うのですが．．．。けど 大門さん （先輩 ？）とは卒業年が ちがいま<BR>
+すね？私の勘違いですかねえ<BR>
+失礼しました  （^^;;)<BR>
+<BR>
+Ｐ．Ｓ<BR>
+ちなみに  私の知ってるクラスには    以下の人がいました。<BR>
+田中 康夫   （私と同じ中学）、吉田  くん    （背が高かった）、吉田  さん、前田 <BR>
+亜希子 (知り合いと同じ名前）、高萩 $川上$中野 ．．．．．などなど  書ききれない<BR>
+            以上<BR>
+大門　哲士<BR>
+<BR>
+<BR>
+<BR>
+005  [97/03/07 12:31]  LDJ03074      question<BR>
+ここへ、テキストデータをアップロードするコマンドは何でしょうか？<BR>
+<BR>
+橋本  健一<BR>
+<BR>
+<BR>
+<BR>
+006  [97/03/07 19:42]  BXL00240      ???　大門<BR>
+＞ここへ、テキストデータをアップロードするコマンドは何でしょうか？<BR>
+<BR>
+どういう意味？特に、コマンドはないですが・・・。<BR>
+テキストであれば、コピー＆ペーストで書き込んでくれてOKですが・・？<BR>
+そういう質問でないのでしょうか？<BR>
+<BR>
+大門<BR>
+<BR>
+<BR>
+<BR>
+007  [97/03/07 21:22]  LDJ03074      Re: question<BR>
+&gt;&gt;ここへ、テキストデータをアップロードするコマンドは何でしょうか？<BR>
+<BR>
+&gt;どういう意味？特に、コマンドはないですが・・・。<BR>
+&gt;テキストであれば、コピー＆ペーストで書き込んでくれてOKですが・・？<BR>
+&gt;そういう質問でないのでしょうか？<BR>
+<BR>
+長文だとコピー＆ペーストがめんどうなので、質問したのですが、<BR>
+でも最大２０行だし、そんなに長文はのせられないので、<BR>
+コピー＆ペーストでええか。<BR>
+<BR>
+あまり、コピー＆ペーストは使ったことがないねん (:-P<BR>
+--<BR>
+橋本<BR>
+<BR>
+<A href="index.html"><BR>
+</A>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER3" onmouseout="HpbImgSwap('_HPB_ROLLOVER3', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER3', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER3"></a> <BR>
+<BR>
+<BR>
+008  [97/03/19 19:56]  LDJ03074      ベース<BR>
+最近投稿がないようなので、つまらないことですが書きます。<BR>
+昔、渋谷洋一のラジオ番組で、高中正義がサディスティックミカバンド<BR>
+でベースをやってた時、なんでベースをやってたかというと<BR>
+一番力の弱い者がやらされるという話をしてました。（半分冗談と思うけど）<BR>
+なるほどと思ったけど、BEATLESのベースはPaul McCartneyというのが、高中正義<BR>
+の説（？）に反しています。(^^;<BR>
+John Lennon, Paul McCartney, Geoge Harison, もうひとりRingoの前のドラマーの<BR>
+名前忘却（スペルいいかげんです）の４人のうち、ドラマーを除く３人だと、<BR>
+一番年下ということもあり、Geogeがベースになりそうなもんやけど、あえて<BR>
+Paulがベースということは、Geogeのギターの腕が群をぬいてるということか。<BR>
+ところが、While My Guiture Gentry Weepsのレコーディングのリードギターは<BR>
+Geogeの曲であるにもかかわらず、クラプトンがやっているのです。<BR>
+ということは、Paulのギターの腕が悪すぎるということかしら？<BR>
+--<BR>
+  橋本健一<BR>
+<BR>
+<BR>
+<BR>
+009  [97/03/20 12:35]  BXL00240      RE:ベース<BR>
+＞一番力の弱い者が（ベースを）やらされるという話をしてました。<BR>
+<BR>
+なるほど、ありうるなぁ！！結構ほんまかも！<BR>
+<BR>
+＞Ringoの前のドラマーの名前忘却・・・・・・ピート・ベストちゃう？<BR>
+＞あえてPaulがベースということは、Geogeのギターの腕が群をぬいてるということか。<BR>
+<BR>
+多分Geogeはリードギターでそれまでやってきて、はずせなかったのでは思ってました。<BR>
+リードギターとリズム（サイド）ギターでは結構弾くスタイルがちがうので・・・。<BR>
+<BR>
+<BR>
+残るポールとジョンは2人とも、リズムギターだったので、リーダーのジョンが優先され<BR>
+たんかなぁ？或いは、当時のビートルズの曲ではポールにとってベースの方がボーカルをﾆりやすかったかもしれません？！<BR>
+<BR>
+＞Geogeの曲であるにもかかわらず、クラプトンがやっているのです。<BR>
+ということは、Paulのギターの腕が悪すぎるということかしら？<BR>
+<BR>
+ポールのギターの腕はようわからん。ただ、ジョージとクラプトンは結構仲良かったみた竄ﾋ！<BR>
+                                                      大門　哲士<BR>
+<BR>
+<BR>
+<BR>
+010  [97/03/24 12:52]  LDJ03074      RE:ベース<BR>
+&gt;Ringoの前のドラマーの名前忘却・・・・・・ピート・ベストちゃう？<BR>
+そうそう、ピート・ベスト。このピート・ベストを主人公にした映画「バックビート」<BR>
+をみたにもかかわらず失念してました。(^^;<BR>
+<BR>
+ジョージ・ハリスンとクラプトンは友人なのですが、ジョージの奥さんと<BR>
+クラプトンが不倫の関係となった後クラプトン夫人となったらしく、ちょっと複雑な<BR>
+関係ですね。本でみかけただけなので、くわしいことはあまり知らんねんけど。<BR>
+<BR>
+--<BR>
+ hasimoto<BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER4" onmouseout="HpbImgSwap('_HPB_ROLLOVER4', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER4', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER4"></a><BR>
+<BR>
+<BR>
+011  [97/03/24 20:38]  BXL00240      バックビート<BR>
+＞ピート・ベストを主人公にした映画「バックビート」をみたにもかかわらず失念してまｵた。<BR>
+<BR>
+俺も、バックビート見ました。ちなみに主人公はピートベストではなく、ベース担当で、ｱき（改行のみ：次頁）<BR>
+＞<BR>
+本職が絵描きの、けんかの古傷がもとで死んだ何とか言う奴です（名前忘却、スチュワーg？・？？？？）。<BR>
+映画はビートルズの面々の顔がちょっと面影ある俳優を使ってて面白かった（特にポールj。ライブのシーンもまあまあ良かって印象的でした！<BR>
+<BR>
+先日、コンプリートビートルズのLD持ってるんで、久々にみたら、これも良かったです！蝟<BR>
+<BR>
+<BR>
+<BR>
+012  [97/03/25 22:21]  BXL00240      バックビート2<BR>
+初期ベーシストの名前を思い出した！！<BR>
+<BR>
+スチュワート・ザトクリフやったと思う。<BR>
+<BR>
+大門<BR>
+<BR>
+<BR>
+<BR>
+013  [97/03/30 13:12]  RXK00515      野谷test<BR>
+test　test　野谷　test<BR>
+<BR>
+<BR>
+<BR>
+014  [97/03/31 12:51]  LDJ03074      Re BACK BEAT<BR>
+俺も久方ぶりに赤盤のＣＤを聴きました。でも赤盤には&quot;Twist and shout&quot;や<BR>
+&quot;Things we said today&quot;,&quot;I saw hew standing there&quot;とか入ってないんやねー。<BR>
+それで、カセットテープを巻き戻して聴いてんけど、ＣＤに慣れるとカセットテープ<BR>
+がめんどくさいわ。(^_^;<BR>
+--<BR>
+ hasimoto<BR>
+<BR>
+<BR>
+<BR>
+015  [97/04/09 20:08]  BXL00240      ノッチ元気かぁ～　S.D<BR>
+ノッチ元気かぁ～？<BR>
+たまには、大阪の様子でもアップしてちょ～だい！！！<BR>
+金域やたんべとはたまには会うんか？<BR>
+<BR>
+<BR>
+<BR>
+016  [97/04/10 12:46]  LDJ03074      Re: ノッチ元気かぁ～　S.D<BR>
+ノッチとちゃうけど元気でっせー (^^;<BR>
+--<BR>
+ hasimoto<BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER5" onmouseout="HpbImgSwap('_HPB_ROLLOVER5', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER5', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER5"></a><BR>
+<BR>
+<BR>
+017  [97/04/12 14:03]  RXK00515      元気か<BR>
+WRIte:げんきでっかー<BR>
+久しぶりです　みんな元気かー　<BR>
+今年になってカンピらとも全然連絡とってない（１度　佐伯に電話したが<BR>
+おらんかった）<BR>
+ところで先日、オムロン（現派遣先）に、うちの会社から新しい人が派遣されてきていろ｢ろ話をしていると草サッカーをしているらしく<BR>
+大阪教員チームにはいっているそうで　おっさん（尾崎先生）のことを<BR>
+知っていてサッカーの話なんかで盛り上がってしまいなつかしかったです。<BR>
+橋健、横浜の方にも地震あったみたいやけど大丈夫か<BR>
+<BR>
+ｐｓ　こないだニフティの検索で寺井ほか何人かの検索を行ったけど<BR>
+　　　見あたらんかった<BR>
+　野谷　武<BR>
+<BR>
+<BR>
+<BR>
+018  [97/04/13 19:18]  BXL00240      阪神　<BR>
+&gt;今年になってカンピらとも全然連絡とってない（１度佐伯に電話したがおらんかった）<BR>
+<BR>
+・・・・そうか。<BR>
+ところで、寺井は結局コンピューターこうたんやろか？<BR>
+<BR>
+話は変わるが、今年の阪神はちょっとちゃうな～と思わせるところがあるけど、<BR>
+どうなんやろか？負け方も去年と違う！！<BR>
+新庄なんかも、一皮むけたような気がする？<BR>
+<BR>
+・・・たんなる気のせいやろか？・・・？<BR>
+<BR>
+大門<BR>
+<BR>
+<BR>
+<BR>
+019  [97/04/14 12:56]  LDJ03074      Re:阪神<BR>
+&gt;話は変わるが、今年の阪神はちょっとちゃうな～と思わせるところがあるけど、<BR>
+<BR>
+いえる。全く期待してなっかただけに、勝率５割でもなんかすごい勝ってるような気がす驍ﾋ<BR>
+新聞にも、何百日ぶりの貯金なんてデカデカとでてた。貯金しただけでトップニュースにﾈるんやからたいしたもんやね。(:-P<BR>
+しかし、６０年の優勝からすでに１２年も経ってしまったなー。<BR>
+６０年の時も２１年ぶりの優勝やったけど、次に優勝できるのはいつのことやろなー。 ６０年の優勝の時に桂春蝶が<BR>
+「２０年もまたされてるとこ、他にないからね。わしら２０歳から４０歳まで人生のド真<BR>
+負けつずけてきたんや。このやせてんのん阪神のせいや。」<BR>
+ていうてた。このままいったら、俺らも春蝶みたいにやせてまうでー。 (^^;<BR>
+--<BR>
+ hasimoto<BR>
+<BR>
+<BR>
+<BR>
+020  [97/04/20 01:07]  BXL00240      阪神２<BR>
+「すいません。log記録紛失です。」<BR>
+<BR>
+<BR>
+<BR>
+021  [97/04/20 17:14]  RXK00515      RE阪神<BR>
+阪神、どないなっとんや　こないだまで<BR>
+まるで優勝でもするかのごとく報道されていたのに<BR>
+4月１９日ですでに単独最下位やないか　どないなっとんねん<BR>
+まっ！　予想どうりといえばそうなんやけどゴールデンウィーク<BR>
+まではなんとかと思っていたんやけど<BR>
+話は変わるけど　今年の上方漫才大賞は”酒井くにお とおる”やったらしい<BR>
+ほかにやるやつおらへんのか<BR>
+昨日”ノックは無用”に出てたけどおもんないぞ<BR>
+まだそのまえに出てた”かしまし娘”の方がおもろかった<BR>
+NOTANI <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER6" onmouseout="HpbImgSwap('_HPB_ROLLOVER6', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER6', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER6"></a><BR>
+<BR>
+<BR>
+022  [97/04/20 23:17]  BXL00240      阪神3<BR>
+今日（4/20）のデイリースポーツをたまたま見たら<BR>
+一面はガンバ大阪のエムボマで飾られてた！！<BR>
+そのエムボマの写真の下に「こいつが阪神におったら・・」と書いてありました。<BR>
+<BR>
+＞今年の上方漫才大賞は”酒井くにお とおる”やったらしい<BR>
+＞ほかにやるやつおらへんのか<BR>
+<BR>
+ほんまなや！<BR>
+上方漫才大賞は、あれは順番にもらえるもんなんか？<BR>
+<BR>
+＞昨日”ノックは無用”に出てたけどおもんないぞ<BR>
+＞まだそのまえに出てた”かしまし娘”の方がおもろかった<BR>
+<BR>
+3人そろって出てたんか？貴重な映像やな！<BR>
+<BR>
+大門<BR>
+<BR>
+<BR>
+<BR>
+023  [97/04/21 13:00]  LDJ03074      上方漫才大賞受賞<BR>
+＞まだそのまえに出てた”かしまし娘”の方がおもろかった<BR>
+<BR>
+くにお とおる は上方漫才大賞受賞ということで、あこがれさん<BR>
+で出演したんですか？それとも仲良しさんかしら？<BR>
+<BR>
+＞まだそのまえに出てた”かしまし娘”の方がおもろかった<BR>
+＞ 3人そろって出てたんか？貴重な映像やな！<BR>
+<BR>
+長いこと見いひんなー。<BR>
+♪ うちら陽気なかしまし娘、誰が言ったか知らないが、女３人よったら<BR>
+   かしましいとは愉快だね  very good good, very good good ....<BR>
+この後忘れた<BR>
+--<BR>
+ hasimoto<BR>
+<BR>
+<BR>
+<BR>
+024  [97/05/05 22:16]  BXL00240      阪神4<BR>
+グリーンウェルは、なかなか期待できそうやな！！<BR>
+<BR>
+今日のニッカンスポーツみたら、<BR>
+はやばや「グリーンウェルで阪神優勝や」と書いてました！<BR>
+<BR>
+初めてグリーンウェルを見たときは、はげで髭はやして、<BR>
+なんかインチキ臭い感じがしたけど、<BR>
+やはりメジャーの実力はありそうや！<BR>
+<BR>
+これからも楽しみです！<BR>
+<BR>
+<BR>
+大門<BR>
+<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?2<BR>
+ <BR>
+00003/00112 BXL00240  大門　哲士　　　 布施高37期3-1HP、log内容25-39<BR>
+( 1)   97/06/05 15:39<BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER7" onmouseout="HpbImgSwap('_HPB_ROLLOVER7', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER7', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER7"></a><BR>
+<BR>
+<BR>
+025  [97/05/07 12:29]  LDJ03074      Re : 阪神4<BR>
+&gt;グリーンウェルは、なかなか期待できそうやな！！<BR>
+<BR>
+ええやないの、グリーンウェル。<BR>
+来日が開幕に間にあえへんかったけど。もうちょっとはよ来てくれたら良かったのに。<BR>
+キダタローが<BR>
+「グリーンウェルは必ず４月４日の開幕までに来日するとわしに約束した。」<BR>
+というとったけど,先日のナイトスクープで<BR>
+「グリーンウェルは日本通やから旧歴の４月４日と勘違いしよったんや。」<BR>
+といいわけしていました。<BR>
+--<BR>
+ hasimoto<BR>
+<BR>
+<BR>
+<BR>
+026  [97/05/14 12:42]  LDJ03074      グリーンウェル帰国<BR>
+またグリーンウェルが帰国してしまいました。 (T_T)<BR>
+せっかく調子が上むいてきたのに。<BR>
+全治４週間ということやけど、今度はいつ帰ってくることやら。<BR>
+--<BR>
+ hasimoto<BR>
+<BR>
+<BR>
+<BR>
+027  [97/05/14 19:46]  BXL00240      RE:グリーンウェル帰国<BR>
+＞またグリーンウェルが帰国してしまいました。<BR>
+<BR>
+<BR>
+これから、楽しみといったところが、残念！！<BR>
+<BR>
+でもなんか、新外人を探すみたいやぞ！！<BR>
+<BR>
+大門<BR>
+<BR>
+<BR>
+<BR>
+028  [97/05/14 19:47]  BXL00240      この指とまれ<BR>
+インターネットで『ウェブ同窓会「この指とまれ！」』<BR>
+というホームページがあります。<BR>
+暇でしたら、その布施高校の覧を覗いて見て下さい。<BR>
+結構、卒業生が登録されてきてます。<BR>
+アドレスは<BR>
+http://yubitoma.justnet.or.jp<BR>
+です。<BR>
+<BR>
+参考まで。大門。<BR>
+<BR>
+<BR>
+<BR>
+029  [97/05/14 21:42]  RXK00515      re　阪神<BR>
+こんちわ　野谷です<BR>
+グリーンウェルやってくれよった。とんでもない外人や<BR>
+少しは期待した俺がアホやった<BR>
+次の外人に期待しょーと（オマリー連れてこい）<BR>
+/<BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER8" onmouseout="HpbImgSwap('_HPB_ROLLOVER8', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER8', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER8"></a><BR>
+<BR>
+<BR>
+030  [97/05/15 13:07]  LDJ03074      グリーンウェル退団<BR>
+昨日グリーンウェル帰国のニュースを見たと思ったら、今度はなんとグリーンウェルが<BR>
+退団,引退するというニュースが報道されました。なにがどうなってんねやら、<BR>
+<BR>
+ころころわからんすなー。<BR>
+やっぱり、大門のいうとおりうさんくさかった。<BR>
+さっそく阪神は新外人の獲得に動くらしいけど, 吉田監督は<BR>
+「あちこち痛いといいださない、頑丈な選手がほしい」<BR>
+といっているそうです。（プロ野球ニュースで福井アナがいってた）<BR>
+--<BR>
+ hasimot<BR>
+<BR>
+<BR>
+<BR>
+031  [97/05/17 12:39]  RXK00515      グリーンウェル退団<BR>
+グリーンウェル　なかなかやってくれるやないか<BR>
+”神のお告げ”　なめてんか３億６千万円もとりやがって<BR>
+<BR>
+話は変わるけど　大門の言ってた”この指とまれ”に登録しました。<BR>
+ひょっとしたら、誰からかメールでも届くかもしれんな<BR>
+<BR>
+<BR>
+<BR>
+032  [97/05/19 12:46]  LDJ03074      なにわのヤング主婦代表<BR>
+先日ひさしぶりに生活笑百科を見ました。仁鶴やんがレギュラー相談員をする時<BR>
+「なにわのヤング主婦代表、上沼恵美子さーん」<BR>
+というと思たら、あにはからんや<BR>
+「人生バラ色、おしゃべり七色、上沼恵美子さーん」<BR>
+というてた。もうヤング主婦いう年やないかなー。<BR>
+--<BR>
+ hashimoto<BR>
+<BR>
+<BR>
+<BR>
+033  [97/05/20 19:57]  BXL00240      この指止まれ<BR>
+＞大門の言ってた”この指とまれ”に登録しました。<BR>
+<BR>
+さっき覗いてみたけど、ノッチの名前出てなかったぞ！<BR>
+<BR>
+登録する際になんか間違ごうたんとちゃうん？<BR>
+<BR>
+大門<BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER9" onmouseout="HpbImgSwap('_HPB_ROLLOVER9', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER9', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER9"></a><BR>
+<BR>
+<BR>
+034  [97/05/20 20:15]  BXL00240      会員検索<BR>
+暇やったんでニフティー会員検索してみたら<BR>
+次の情報が得られました。<BR>
+<BR>
+KXC00634  渡辺　寿美男　　東京    品川区　　  FM/OASYS<BR>
+<BR>
+きんぞーやろか？珍しい名前だけに可能性はあるかも？<BR>
+誰か試しにメール出してみ！<BR>
+<BR>
+あと、「山田　隆」は腐るほど出てきました。<BR>
+山田、失礼しました。<BR>
+<BR>
+大門<BR>
+<BR>
+<BR>
+<BR>
+035  [97/05/23 22:05]  RXK00515      この指とまれ<BR>
+おかしいなー　ちゃんと登録しんたやけどなー<BR>
+俺も”この指とまれ”を確認したけど登録されていなかった<BR>
+一応、”この指とまれ”からのメールを見たら何か登録は、自動じゃ<BR>
+なくて手動の為少し時間がかかると書いてあった<BR>
+もう少し待ってみるわ<BR>
+<BR>
+”渡辺寿美夫”がＮＩＦＴＹの会員やて<BR>
+大門　それはきっと”きんぞう”や、まちがいない<BR>
+ぜったいや　なんでメール送らんのや<BR>
+（大門：お前が、送れ）<BR>
+じゃー　しゃない、ここは、親友の寺井に頼むか<BR>
+でも、寺井は、パソ通してないみたいやしなー<BR>
+　野谷<BR>
+<BR>
+<BR>
+<BR>
+036  [97/05/26 12:39]  LDJ03074      ヒート<BR>
+「ヒート」のビデオを見ました。アルパチーノがよかったわ。<BR>
+アルパチーノの映画は実にひさしぶりで、「ゴッドファーザーパート３」<BR>
+を除くと１０年来見てなかったのですが、昔見たのは「狼達の午後」<BR>
+「ゴッドファーザー」「ゴッドファーザーパート２」だけでした。<BR>
+あんまりアルパチーノの映画の話題きかへんなあ。今度「スカーフェース」<BR>
+のビデオ借りに行こおーっとー(ここは桂小枝のアクセントで）<BR>
+--<BR>
+ hasimoto<BR>
+<BR>
+<BR>
+<BR>
+037  [97/05/27 19:50]  BXL00240      きんぞー<BR>
+＞それはきっと”きんぞう”や、まちがいないぜったいや　なんでメール送らんのや・・そやろ、可能性高いやろ！きんぞうやったら、性格的にもNiftyやってそうやろ？<BR>
+よし、しゃーない！ここは中とって、はしけん、頼んだ！！メール出しみてくれ！<BR>
+メールの内容は「2人のカンフー」と一言だけかいとけば、反応間違いなしや！<BR>
+たのむぜ、はしけん！<BR>
+<BR>
+＞寺井は、パソ通してないみたいやしなー<BR>
+<BR>
+結局、寺井はコンピューターは買うたんか？<BR>
+買うたんやったら、ノッチ、Nifty 入るようにプッシュよろしく！！<BR>
+<BR>
+大門<BR>
+<BR>
+<BR>
+<BR>
+038  [97/05/29 12:29]  LDJ03074      | きんぞー<BR>
+&gt;＞それはきっと”きんぞう”や、まちがいないぜったいや　なんでメール送らんのや<BR>
+&gt;そやろ、可能性高いやろ！きんぞうやったら、性格的にもNiftyやってそうやろ？<BR>
+&gt;よし、しゃーない！ここは中とって、はしけん、頼んだ！！メール出しみてくれ！<BR>
+なんでそうなるの！！ (^_^; 全然,中とちゃうて。<BR>
+ほたらニュンコに送っくてもらおう。 (^O^<BR>
+&gt;メールの内容は「2人のカンフー」と一言だけかいとけば、反応間違いなしや！<BR>
+「2人のカンフー」は、キンゾーはしゃれでなくてマジにとらえてるんやろなー。<BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER10" onmouseout="HpbImgSwap('_HPB_ROLLOVER10', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER10', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER10"></a><BR>
+<BR>
+<BR>
+039  [97/06/02 12:33]  LDJ03074      JARO<BR>
+インターネットのニュースグループを見てたら、JAROについて書かれていました。<BR>
+広告を見てある商品を購入したところ、広告で謳われている機能が全然なかったので、<BR>
+JAROに電話してみたところ、「ウチから（広告主に）言うとカドが立ちますから、<BR>
+ご自分で解決して下さい」といわれたそうです。<BR>
+JAROのCMこそ、誇大広告のようです。JAROに電話せなあかんわ。(^_^;<BR>
+--<BR>
+ hasimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?3<BR>
+<BR>
+<BR>
+<BR>
+00004/00112 LDJ03074  橋本健一         松鶴<BR>
+( 1)   97/06/10 12:33<BR>
+<BR>
+昨日ラジオで六代目松鶴の落語が放送されてました。ネタは三十石という旅ネタです。<BR>
+旅ネタは前座の修業ネタなのですが、この三十石は真打ちネタです。<BR>
+パペポで鶴瓶がやるモノマネでなく、本物の声を久しぶりに聴いて、懐かしかった。<BR>
+ところで、松葉なきあと、七代目は一体だれが継ぐねやろ？順番からいったら仁鶴<BR>
+やけど、松鶴の大名跡が吉本へいってまうと松竹がだまってへんやろし、<BR>
+鶴光は東京へ行ってるし、福笑ははちゃめちゃすぎるし,松喬や松枝や呂鶴では地味<BR>
+やし、というて鶴瓶いうことはないやろ。<BR>
+--<BR>
+ hasimoto<BR>
+<BR>
+<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?4<BR>
+ <BR>
+00005/00112 BXL00240  大門　哲士　　　 バーチャル甲子園<BR>
+( 1)   97/06/12 20:58                     コメント数：1<BR>
+<BR>
+まいどです。<BR>
+<BR>
+最近の阪神、ヤクルトに連敗中ですが、<BR>
+なかなかがんばってると思う！<BR>
+<BR>
+インターネットでいろいろ見てたら、<BR>
+バーチャル甲子園というのを見つけました。<BR>
+<BR>
+甲子園で試合がある時、このサイトにアクセスし専用ソフト（ショックウェーブも必要）を立ちあげると、ファミコンみたいなアニメーションで実況生中継が見れます。テレビで中継がやってない時良いかも！？<BR>
+専用ソフトは同サイトでダウンロード出来ます。<BR>
+<BR>
+バーチャル甲子園アドレス<BR>
+<BR>
+http://www.hanshin.co.jp/virtual/index.html<BR>
+<BR>
+daimon<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?5<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER11" onmouseout="HpbImgSwap('_HPB_ROLLOVER11', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER11', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER11"></a><BR>
+<BR>
+<BR>
+00006/00112 RXK00515 野谷　武 テスト<BR>
+( 1)   97/06/13 17:10<BR>
+<BR>
+久しぶりです。野谷です<BR>
+PATIOに初めて登録するの初めてやけどうまいことげきてるんかなー<BR>
+それと橋健相変わらずマニアックなネタどうも有り難う<BR>
+6月13<BR>
+<BR>
+は休みだったんで家でゆっくりパソコンさわっています。<BR>
+では<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?6<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00007/00112 RXK00515 野谷　武 1213<BR>
+( 1)   97/06/13 17:16<BR>
+<BR>
+123<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?7<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00008/00112 LDJ03074 橋本健一 RE:バーチャル甲子園<BR>
+( 1)   97/06/13 17:48  00005へのコメント<BR>
+<BR>
+&gt;バーチャル甲子園というのを見つけました。<BR>
+&gt;テレビで中継がやってない時良いかも！？<BR>
+<BR>
+それは,有意義なものやなあ。<BR>
+1985年みたいに,まちがって優勝争いをした場合,サンテレビ以外では<BR>
+オンエアされへん可能性があるもんなあ。<BR>
+関西以外の地域ではええかもしれん。<BR>
+1985年の優勝を決定したヤクルト戦は関西テレビのみオンエアで<BR>
+視聴率70%以上やったかな。<BR>
+その当時,奥羽にいた大門は見られへんかったやろ。 (:-P<BR>
+--<BR>
+ hasimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?8<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER12" onmouseout="HpbImgSwap('_HPB_ROLLOVER12', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER12', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER12"></a><BR>
+<BR>
+<BR>
+00009/00112 LDJ03074  橋本健一         | バーチャル甲子園<BR>
+( 1)   97/06/13 17:55<BR>
+<BR>
+&gt;バーチャル甲子園というのを見つけました。<BR>
+&gt;テレビで中継がやってない時良いかも！？<BR>
+<BR>
+それは,有意義なものやなあ。<BR>
+1985年みたいに,まちがって優勝争いをした場合,サンテレビ以外では<BR>
+オンエアされへん可能性があるもんなあ。<BR>
+関西以外の地域ではええかもしれん。<BR>
+1985年の優勝を決定したヤクルト戦は関西テレビのみオンエアで<BR>
+視聴率70%以上やったかな。<BR>
+その当時,奥羽にいた大門は見られへんかったやろ。 (:-P<BR>
+--<BR>
+ hasimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?9<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00010/00112 LDJ03074  橋本健一         金曜ロードショー<BR>
+( 1)   97/06/16 12:30                     コメント数：1<BR>
+<BR>
+先日、金曜ロードショーをみたのですが、解説が水野晴夫とちがって<BR>
+女性のナレーションでした。いつからかわってんやろ?<BR>
+映画は「氷の微笑」。最後まで見ても、真犯人はシャーロン・ストーンなのか<BR>
+マイケル・ダグラスに射殺された警察の精神科医なのか、判然とせずなんか<BR>
+緊張の残る映画でした。<BR>
+いやー、映画って本当のいいもんですね。(^_^<BR>
+--<BR>
+ hasimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?10<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00011/00112 BXL00240  大門　哲士　　　 RE:金曜ロードショー<BR>
+( 1)   97/06/16 21:02  00010へのコメント<BR>
+<BR>
+＞判然とせずなんか緊張の残る映画でした。<BR>
+<BR>
+ほんま、あの映画の犯人はだれや？？？<BR>
+どっか答えは、ないんやろうか？<BR>
+このモヤモヤ感どうすんねん！<BR>
+責任者でてこい！<BR>
+<BR>
+それにしても昨日の桧山はよう打った！<BR>
+<BR>
+S.Daimon<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?11<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER13" onmouseout="HpbImgSwap('_HPB_ROLLOVER13', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER13', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER13"></a><BR>
+<BR>
+<BR>
+00012/00112 RXK00515 野谷　武 RE：金曜ロードショウ<BR>
+( 1)   97/06/21 20:28                     コメント数：2<BR>
+<BR>
+毎度、久々の野谷です。<BR>
+”氷の微笑”はあの犯人が最後までわからへんところがええんや<BR>
+わからんかなー<BR>
+<BR>
+話は変わるけど　こないだメールでちょっと変わったのがきたので<BR>
+紹介しときます。<BR>
+こんにちは。はじめまして！<BR>
+最近インターネットをはじめました。<BR>
+ひまつぶしにホームページを見てたら、<BR>
+アドレスがあったのでE-Mailしました。<BR>
+<BR>
+私は増田めぐみっていいます。今は大学生で、ダンスユニットのボーカル<BR>
+もしているんですけど、、、実は、、このあいだCDをだしたんですよ<BR>
+<BR>
+ちょっと聴いてほしーなあなんて思って。<BR>
+こないだ発売されたばかりなんですけど、今すっごくすっごく<BR>
+うれしくって、ちょと自分じゃよくわかんなくなってるところがあるるから<BR>
+今すっごく人の意見が聞きたいんです、、、<BR>
+だから曲聴いて、感想とかアドバイスとかしてほしーなぁ、、、<BR>
+なんて思ってるんです。<BR>
+もちろん、気に入ってもらいたらすごくうれしいです、、、<BR>
+<BR>
+えーと、、、タイトルは、「近づいてくる」で、<BR>
+ユニット名は S.S.V. (エスエスブイ、Still Small Voice)で<BR>
+す。<BR>
+そんで、ボーカルの私と、作曲やってる♂と、ラップ＆ダンス＆D.J.<BR>
+(都内の某クラブでやってまーす)♂で３人です。<BR>
+近づいてくる、、、ってちょ<BR>
+っとあやしいけど、（ストーカーっぽい） <BR>
+ほんとはそんなことなくって、遠距離恋愛の歌なんだよー。よい曲！<BR>
+<BR>
+それで、とりあえず曲きくには、、、、<BR>
+今週いっぱい 6/20 金までの毎日、日テレの M-STAGE <BR>
+夜中の1:15 ―1:30 のエンディングでビデオが流れます！<BR>
+もうはじまっちゃてるけど。<BR>
+<BR>
+それから、テレ東の火曜日にやってる神田うののモデルファクト<BR>
+リー２のエンディングでも流れてます。<BR>
+たしか、夜中の1:15から。<BR>
+もしよかったら見てみてください！！ビデオはけっこう変わってて、<BR>
+私なんて空飛んじゃったりしてるから、、、おもしろいよ！<BR>
+ちなみに、前は、<BR>
+「こどものおもちゃ」っていうアニメの終わりの曲<BR>
+を歌ってました。これ知ってますか？<BR>
+感想なんか、いろいろおしえてもらえたらうれしいです。<BR>
+そういうわけで、お返事もらえたらうれしいです！。<BR>
+<BR>
+megumi masuda<BR>
+still small voice<BR>
+みんな知ってるか<BR>
+ちなみに俺はしらん<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?12<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER14" onmouseout="HpbImgSwap('_HPB_ROLLOVER14', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER14', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER14"></a><BR>
+<BR>
+<BR>
+00013/00112 BXL00240  大門　哲士　　　 RE:RE：金曜ロードショウ<BR>
+( 1)   97/06/23 20:28  00012へのコメント<BR>
+<BR>
+＞ひまつぶしにホームページを見てたら、<BR>
+＞アドレスがあったのでE-Mailしました。<BR>
+＞・・・私は増田めぐみ・・・・・<BR>
+<BR>
+ノッチ、ひょっとしてホームページを作って出してるんか？<BR>
+<BR>
+ところで、「増田めぐみ」って誰や！<BR>
+俺もしらん！<BR>
+<BR>
+<BR>
+S.Daimon<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?13<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00014/00112 LDJ03074  橋本健一         RE:RE：金曜ロードショウ ( 1)   97/06/24 12:54  00012へのコメント<BR>
+<BR>
+&gt;＞ひまつぶしにホームページを見てたら、<BR>
+&gt;＞アドレスがあったのでE-Mailしました。<BR>
+&gt;ノッチ、ひょっとしてホームページを作って出してるんか？<BR>
+なるほど,ホームページか。俺は電子メイルのダイレクトメイルかなと思った。<BR>
+--<BR>
+ hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?14<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00015/00112 RXK00515 野谷　武 &quot;:謎のメール<BR>
+( 1)   97/06/24 22:16<BR>
+<BR>
+ホームページちゃうでー<BR>
+とゆうか俺のホームページとちゃうねん<BR>
+前にどっかのホームページにメールアドレスを乗せたことがあるねん<BR>
+たぶんそのへんからかなー<BR>
+こいつ有名になってくれたらちょっと自慢になるねんけどなー<BR>
+/ｅ/<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?15<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER15" onmouseout="HpbImgSwap('_HPB_ROLLOVER15', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER15', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER15"></a><BR>
+<BR>
+<BR>
+00016/00112 BXL00240 大門　哲士　　　 7/16ヤクルト戦！！<BR>
+( 1)   97/07/17 13:49                     コメント数：1<BR>
+<BR>
+毎度です。<BR>
+<BR>
+昨日のヤクルト戦、ごっつかったなぁ～！<BR>
+インターネットに、観戦記のおもろいやつがあったので<BR>
+アップしときます。<BR>
+以下、転記です。<BR>
+<BR>
+＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊<BR>
+<BR>
+<BR>
+<BR>
+                         ついに今夜は！神宮狂乱記！<BR>
+<BR>
+投稿者：リーマンＡ ( 97年7月17日 00時59分09秒 )<BR>
+<BR>
+今夜はレフトスタンドへ一直線。やっぱりここが一番や！<BR>
+<BR>
+０－１　　　ちっ．．．<BR>
+４－１　　　ひーやまーっ！！よっしゃあ！ニイちゃん、ビールゥ！<BR>
+４－２　　　けっ．．．<BR>
+４－５　　　くっ！<BR>
+５－５　　　よおおし！<BR>
+５－６　　　うっ．．．<BR>
+５－１０　　なんで？なんでなんや！？嘘やていうてくれ．．．<BR>
+６－１０　　そうや。 ８－１０　　おおっしゃあああ！！<BR>
+１０－１０　ひいらつかああああああああっ！！！<BR>
+１２－１０　ほおおおおおおおしのおおおおおおおおおお！！！<BR>
+１２－１２　ゆ．．．ふ．．．ね．．．お前殺してワシも死ぬ．．．<BR>
+<BR>
+レフトスタンドのうめき．．．「３時まででも、４時まででも、やったらあ！」<BR>
+<BR>
+１３－１２　や・ま・っ・・どあああああああああああ！！！帰れるやん！<BR>
+１３－１２！　１３対１２！　じゅうさんたいじゅうに！！<BR>
+<BR>
+ついに、やった．．．！！<BR>
+記者団に囲まれ引き揚げ際、よっさん、右手で小さく、しかし力強く、ガッツポー<BR>
+ズ！<BR>
+<BR>
+そして連夜の午前サマ．．．<BR>
+わし（おそるおそる）「ただいま．．．」<BR>
+ニョーボー　「．．．おめでとう。」<BR>
+<BR>
+虎の借金、あと４。ウチのチビ虎誕生予定日、あと４日。<BR>
+許せ、ニョーボー。明日も行かせてや！<BR>
+<BR>
+＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊<BR>
+<BR>
+大門<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?16<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER16" onmouseout="HpbImgSwap('_HPB_ROLLOVER16', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER16', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER16"></a><BR>
+<BR>
+<BR>
+00017/00112 LDJ03074  橋本健一         RE:7/16ヤクルト戦！！<BR>
+( 1)   97/07/17 18:31  00016へのコメント<BR>
+<BR>
+しばらくです。<BR>
+<BR>
+&gt;昨日のヤクルト戦、ごっつかったなぁ～！<BR>
+&gt;インターネットに、観戦記のおもろいやつがあったので<BR>
+&gt;アップしときます。<BR>
+中略<BR>
+&gt;虎の借金、あと４。ウチのチビ虎誕生予定日、あと４日。<BR>
+&gt;許せ、ニョーボー。明日も行かせてや！<BR>
+<BR>
+これはおもろい。笑わせてくれるやないの。<BR>
+しかし、すごい試合やってんなー。プロ野球ニュース見たらよかった。チェッ(^_^;<BR>
+--<BR>
+ hasiomoto <BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?17<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00018/00112 LDJ03074 橋本健一 あほだら経<BR>
+( 1)   97/07/25 13:04                     コメント数：2<BR>
+<BR>
+古いラジオ番組の録音テープをきいてたら、&quot;枝雀のすびばせんね&quot;のテープ<BR>
+がでてきました。<BR>
+ラジオ大阪で日曜日の夜11:00から1時間やってた番組です。<BR>
+ぬかるみの直前の番組なのできいたことあるんちゃうかな。<BR>
+その番組で九雀のあほだら経というおもしろいコーナーがあったので<BR>
+引用します。<BR>
+================================================================<BR>
+仏説あほだら経,おおそれながら、すなわちだんだん、てまくらやっかい<BR>
+道楽和尚がとらえ上げます諸芸の一座のおさだまり<BR>
+あほだら経というやつは、はげた木魚をよこちょにかかえて、親のかたきか<BR>
+遺恨のあるように、あっちゃむいてスッカラカン、こっちゃむいてスッカラカン<BR>
+スカスカ,バカバカ,ばかげたお経の文句にゃまちがいない<BR>
+ちょいとでましたお笑いに,ないものばかりをとりよせまして,<BR>
+ないないずくしとでかけよか,ないないずくしのことなれば,<BR>
+やれない、それない、何にもない、<BR>
+政治家さんにはうそがない、役人さんにはひまがない<BR>
+国鉄機関士いねむりしない、郵便局には遅れがない<BR>
+天気予報にずれはあってもはずれはない、医者とぼんさん欲がない<BR>
+学校の先生まちがいない、生徒も先生に逆らわない,そこで学校もめごとない、<BR>
+もめごとないから心配ないわい<BR>
+おまわりさんにはぬかりがない、見つけた犯人逃さない<BR>
+アナウンサーにはとちりがない、放送作家にでたがりない、<BR>
+漫才さんには誤りない、噺家さんには貧乏ない、評論家にはまちがいない、<BR>
+まちがいあっても逆らえないわい<BR>
+映画の解説あらすじ言わない、スポーツ解説むちゃ言わない<BR>
+阪神優勝まちがいない、監督交代絶対ない、<BR>
+プロレス決して台本ない、相撲のやおちょう見たことない<BR>
+ボクシング判定身びいきない、マラソン途中でけつわらない、<BR>
+今までしゃべった私の言葉にこっから先もいつわりない、<BR>
+いつわりないけど重みがない、重みがないので信用できない、<BR>
+いうてる私がたよりがないわい<BR>
+--<BR>
+ hasimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?18<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER17" onmouseout="HpbImgSwap('_HPB_ROLLOVER17', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER17', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER17"></a><BR>
+<BR>
+<BR>
+00019/00112 BXL00240 大門　哲士　　　 RE:あほだら経<BR>
+( 1)   97/07/27 22:10  00018へのコメント<BR>
+<BR>
+＞九雀のあほだら経というおもしろいコーナーがあったので<BR>
+引用します。<BR>
+<BR>
+これって歌か？<BR>
+どんな拍子とってるんやったっけ？<BR>
+忘れてしもた。<BR>
+<BR>
+大門<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?19<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00020/00112 LDJ03074 橋本健一 RE:あほだら経<BR>
+( 1)   97/07/29 12:30  00018へのコメント<BR>
+<BR>
+&gt;＞九雀のあほだら経というおもしろいコーナーがあったので<BR>
+&gt;引用します。<BR>
+&gt;<BR>
+&gt;これって歌か？<BR>
+&gt;どんな拍子とってるんやったっけ？<BR>
+&gt;忘れてしもた。<BR>
+<BR>
+歌ではなくてお経です。(^_^<BR>
+&quot;枝雀のすびばせんね&quot;きいたことあるのん?<BR>
+今度あほだら経のテープわたすわ。 --<BR>
+ hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?20<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00021/00112 LDJ03074 橋本健一 なにわのモーツアルト<BR>
+( 1)   97/08/04 12:47<BR>
+<BR>
+生活笑百科で,レギュラー相談員の&quot;自称正義と真実の人&quot;桂南光さんが休んでたので,<BR>
+かわりに&quot;なにわのモーツアルト&quot;キダタローさんが出演してました。<BR>
+以前は,桂ざこばと桂南光が１週おきに交代で出演してたけど,いつの頃からか<BR>
+ざこばがでなくなってしまった。<BR>
+そういえば,ざこばのキャッチフレーズはどんなんやったかな?<BR>
+--<BR>
+ hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?21<BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER18" onmouseout="HpbImgSwap('_HPB_ROLLOVER18', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER18', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER18"></a><BR>
+<BR>
+<BR>
+ 00022/00112 BXL00240  大門　哲士　　　 「スーパーテレビ」の取材！<BR>
+( 1)   97/08/04 21:23                     コメント数：1<BR>
+<BR>
+毎度です。<BR>
+<BR>
+＞そういえば,ざこばのキャッチフレーズはどんなんやったかな?<BR>
+<BR>
+・・・う～ん、・・・忘れた！！<BR>
+<BR>
+ところで、先日うちの職場に「しゅらい」が・・・、失礼、「取材」がありました。<BR>
+日本テレビ系列の「スーパーテレビ」という番組からです。<BR>
+<BR>
+「スーパーテレビ」は良くある「大阪府警、密着24時間」とか主にドキュメントをやってる番組です。<BR>
+<BR>
+その番組が「カレー戦争」と題して、大塚化学とハウス食品、S&amp;B・・・等のレトルトカ<BR>
+レーの開発競争をドキュメンタリータッチで番組化し、放送するそうです。<BR>
+<BR>
+俺もカメラに写ってるかもしれません！！！！！！！！！<BR>
+<BR>
+良かったらon airを見てみて！<BR>
+<BR>
+放送日は盆あけ　8/18（月）夜9：00～の予定です。日本テレビ系列です。<BR>
+<BR>
+よろしく。<BR>
+<BR>
+大門<BR>
+ この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?22<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00023/00112 LDJ03074 橋本健一 RE:「スーパーテレビ」の取材！<BR>
+( 1)   97/08/05 17:39  00022へのコメント<BR>
+<BR>
+&gt;ところで、先日うちの職場に「しゅらい」が・・・、失礼、「取材」がありました。<BR>
+&gt;日本テレビ系列の「スーパーテレビ」という番組からです。<BR>
+<BR>
+「だっしのしゅらい」ではなくて「テレビのしゅらい」ですね。<BR>
+インタブーは受けたのですか?<BR>
+<BR>
+&gt;その番組が「カレー戦争」と題して、大塚化学とハウス食品、S&amp;B・・・等のレトルトカ&gt;レーの開発競争をドキュメンタリータッチで番組化し、放送するそうです。<BR>
+<BR>
+個人的には,最近はS&amp;Bのカレー上手が気に入ってます。<BR>
+<BR>
+&gt;俺もカメラに写ってるかもしれません！！！！！！！！！<BR>
+&gt;良かったらon airを見てみて！<BR>
+&gt;放送日は盆あけ　8/18（月）夜9：00～の予定です。日本テレビ系列です。<BR>
+<BR>
+そら,楽しみやなー。<BR>
+知人がテレビに映るなんて,「福笑のはてな大集合」以来のことやなー<BR>
+(ふるー,いつのこっちゃ)(なにわだよ,一人漫才だよ) (^_^;<BR>
+<BR>
+--<BR>
+ hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?23<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER19" onmouseout="HpbImgSwap('_HPB_ROLLOVER19', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER19', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER19"></a><BR>
+<BR>
+<BR>
+00024/00112 RXK00515 野谷　武 ”な～んでかな”<BR>
+( 1)   97/08/24 13:47                     コメント数：1<BR>
+<BR>
+毎度　Notaniです。<BR>
+<BR>
+”な～んでかな”おじさんの名前がわかったんで<BR>
+一応　掲載しときます。<BR>
+<BR>
+　さかい　すすむ（漢字は不明）<BR>
+<BR>
+もし新聞のＴＶ欄にこの名前を見かけたらチェック<BR>
+するように！<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?24<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00025/00112 LDJ03074  橋本健一         RE:”な～んでかな”<BR>
+( 1)   97/08/25 17:37  00024へのコメント  コメント数：1<BR>
+<BR>
+&gt;さかい　すすむ（漢字は不明）<BR>
+<BR>
+さかい すすむ て誰やろ？<BR>
+さかい くにお、とおる と何か関係あるんか？<BR>
+--<BR>
+hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?25<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00026/00112 BXL00240  大門　哲士　　　 RE:”な～んでかな”<BR>
+( 1)   97/08/25 22:42  00025へのコメント<BR>
+<BR>
+＞さかい　すすむ（漢字は不明）<BR>
+<BR>
+そうそう！確か、「堺すすむ」やったと思う。<BR>
+<BR>
+＞”な～んでかな”<BR>
+<BR>
+正確には、「な～～～んでかっ！」です。<BR>
+<BR>
+顔は桝添要一が髪の毛、長なった感じです。<BR>
+<BR>
+芸は特におもろい！ということは無いが、一見の価値は有ると思います。<BR>
+<BR>
+はしけん、チェックしてみて下さい。<BR>
+<BR>
+では。<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?26  <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER20" onmouseout="HpbImgSwap('_HPB_ROLLOVER20', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER20', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER20"></a><BR>
+<BR>
+<BR>
+00027/00112 LDJ03074  橋本健一         上田正樹とSOUTH TO SOUTH<BR>
+( 1)   97/08/29 20:44<BR>
+<BR>
+こんにちわ。<BR>
+先日CD店で「この熱い魂を伝えたいんや/上田正樹とSOUTH TO SOUTH」<BR>
+のCDを見かけて,買いました。<BR>
+LIVE録音です。有山淳司もいます。<BR>
+曲目は<BR>
+1.オープニング<BR>
+2.ウ・プ・パ・ドゥ<BR>
+3.最終電車<BR>
+4.こわれたコーヒーカップ<BR>
+5.ラブ・ミー・テンダー<BR>
+6.ブレイク・ダウン<BR>
+7.むかでの錦三<BR>
+8.わが心のジョージア<BR>
+9.お前を離さない<BR>
+「ぼちぼち行こか」にあるような,くすぐり系の曲はありません。<BR>
+しかし、「悲しい色やね」以降の洗練された上田正樹とはちがった<BR>
+原点のキー坊を感じれるような気がします。<BR>
+今週のお薦めCDのコーナーでした (^_^;<BR>
+--<BR>
+hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?27<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00028/00112 LDJ03074 橋本健一 海外でのキャッシング<BR>
+( 1)   97/09/10 14:01<BR>
+<BR>
+わんばんこ。<BR>
+クレジットカードを利用した海外でのキャッシングの情報です。<BR>
+ニュースグループにでていました。<BR>
+引用します。<BR>
+================== from here ===========================================<BR>
+<BR>
+非営利でかつ改変を加えなければ再配布／転載を許可します。<BR>
+<BR>
+外国で少額の現地通貨を手に入れる方法として、Credit Card (C/C) による <BR>
+cash advance は便利で手数料を払う価値のある方法です。賢い利用の仕方に<BR>
+ついてまとめてみました。<BR>
+<BR>
+ここでは ATM を使った、C/C による cash advance を紹介します。 為替手数<BR>
+料の 1.0 - 1.6% の損に加えて、 ATM 利用手数料と金利が取られるので、損<BR>
+失は 3 - 5 % になります。 ATM 手数料の課金の仕方も、１回の ATM 使用当<BR>
+たりのもの、金額に比例するものなど、いろいろあるようです。<BR>
+<BR>
+しかし、マイナーな現地通貨で、少額の現金が必要な時など手軽で便利なので、<BR>
+ cash advance の利用は利便性とコストとの兼ね合いとなります。<BR>
+<BR>
+さて、（考えてみれば当然ですが） cash advance したお金は年利 27% 程度<BR>
+の高金利で借りているわけです。そこで、日本に帰ってから「繰り上げ返済」<BR>
+する方法は 2-3% の節約になります。一部を除いて、どのクレジットカードで<BR>
+も可能らしいので、方法については電話でカード会社に問い合わせて下さい<BR>
+（ &lt;- 求む情報）<BR>
+<BR>
+＊ 住友カード(VISA)は、住友銀行の ATM （小銭を扱えるもの）を使って繰り<BR>
+上げ返済できるので、とても便利です。例えば、５日以内に繰り上げ返済でき<BR>
+れば、利子分がかなり節約でき、レート 1.6% ,利子 0.4% ほどで、損失合計<BR>
+を 2% 程度に抑えられそうです。利便性も考えれば（少額ならば）これはお勧<BR>
+めです。<BR>
+<BR>
+＊ SAISON カード（VISA/Master）は、セゾングループ（西武デパートなど）<BR>
+のカウンターで繰り上げ返済できます。海外での cash advance が自動的に金<BR>
+利の高いリボ払いになるのは難点ですが、これもすぐに繰り上げ返済できれば<BR>
+関係なくなります(ATM 利用後に一括払いに変更することはできます)利用１回<BR>
+あたりの手数料もあり VISA/Master は US$ 2.25 、JCB は金額の 1% + 100 <BR>
+円のようです。<BR>
+<BR>
+※ ATM 手数料は、繰り上げ返済すると 180 円ぐらいに安くなるらしい。<BR>
+<BR>
+ Saison Gold VISA の場合、 ATM 使用料は US$ 1.09/回 ('96.05) のようです。<BR>
+<BR>
+＊ OMC カード（ダイエー系,VISA/Master/JCB）では、繰り上げ返済の方法が<BR>
+２通りあります。 (1) 銀行振りこみ、(2) 27 日に銀行引き落としです。 (1) <BR>
+は、振り込み手数料が大きく、 (2) には 27 日までに年率 29.20% (0.08%/日)<BR>
+の日割りの利息がつきますので、やや難ありです。OMC センター 0120-266-007<BR>
+<BR>
+＊ Nicos (VISA/Master) では、 27.60 % の利子は、繰り上げ返済した場合で<BR>
+も最低 15 日分の利子をとられます。従って、為替手数料で1.6%と、利子が最<BR>
+低 15 日分で 1.13 % 必要です。店舗が少なく、提携銀行の ATM もないので、<BR>
+繰り上げ返済も面倒です。<BR>
+<BR>
+＊ JCB カードは、三和銀行の JCB の口座への送金により、繰り上げ返済がで<BR>
+きます。ただし、米ドル／独マルク以外は為替手数料で損をします（為替レー<BR>
+トの FAQ 参照のこと）<BR>
+<BR>
+＊ 三和カード (JCB)は、繰り上げ返済は可能らしいですが、返済に ATM は使<BR>
+えないとのことです。<BR>
+<BR>
+＊ 富士 UC (VISA/Master)は、（海外に関しては）繰り上げ返済ができないと<BR>
+のことです。<BR>
+<BR>
+以上、特に住友 VISA と SAISON Visa/Master では、 cash advance と繰り上<BR>
+げ返済の組合せは便利で安全、手数料も reasonable な、かなり有力な方法だ<BR>
+と思うので、もっとたくさんの経験談を募集してます。 credit card の通用<BR>
+範囲は広まり、現金を利用する機会は減り、必要な現金の額は小さくなってい<BR>
+ます。少額の T/C を手間をかけて作成するより、賢く cash advance する方<BR>
+が良い場合もかなり多いと思います。<BR>
+<BR>
+これからは、（自分にとって）繰り上げ返済のやりやすいカードの利用という<BR>
+観点も重要かも知れません。繰り上げ返済は、 T/C を買うより、手間が少な<BR>
+いぐらいでしょう。<BR>
+<BR>
+        小方＠電総研<BR>
+<BR>
+体験談 イタリア・リラの場合 ('96.6)<BR>
+<BR>
+ 成田空港のレートは最悪、ローマ空港のレートも悪い。イタリアはたとえ田<BR>
+舎でも ATM が発達していて便利、cash advance &amp; 繰り上げ返済は損が 3-4% <BR>
+に抑えられ有力。<BR>
+===================================================================<BR>
+--<BR>
+hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?28<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00029/00112 BXL00240  大門　哲士　　　 米国出張<BR>
+( 1)   97/09/24 22:38                     コメント数：1<BR>
+<BR>
+この度、10/24から10日間、米国シカゴへ出張することになりました。<BR>
+期待半分、不安半分・・・・・<BR>
+いま、準備でばたばたし始めてます。<BR>
+<BR>
+S.Daimon<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?29<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER21" onmouseout="HpbImgSwap('_HPB_ROLLOVER21', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER21', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER21"></a><BR>
+<BR>
+<BR>
+00030/00112 LDJ03074  橋本健一         RE:米国出張<BR>
+( 1)   97/09/25 19:43  00029へのコメント<BR>
+<BR>
+&gt;この度、10/24から10日間、米国シカゴへ出張することになりました。<BR>
+へー,それはうらやましいなー。<BR>
+シカゴで連想することは、シカゴ・ブルズ、アル・カポネ....<BR>
+うーん、それくらいしかでてけーへん。(^_^;)<BR>
+ボン・カレーて輸出してるの?<BR>
+--<BR>
+hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?30<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00031/00112 RXK00515  野谷　武         ノックは無用<BR>
+( 1)   97/09/27 18:49                     コメント数：1<BR>
+ 毎度です　久々にPATIOに投稿します<BR>
+今日９月２７日（土）に関西お笑い長寿番組　ノックは無用<BR>
+が最終回を迎えました。<BR>
+橋健向けに最終回のゲストを紹介すると<BR>
+まず今いくよ、くるよ　坂東英二　カルーセル麻紀　横山ノック<BR>
+横山ノックの息子でした。<BR>
+次回からどんな番組がスタートするかは紹介はなかったけど<BR>
+あの名言の数々がきけないとなると<BR>
+ちょっと寂しい気がするわ<BR>
+”あなたのもう一つの髪フォンテーン”<BR>
+”どんな変身を望みますか？　派手で　ゴージャスで”<BR>
+ｅｔｃ<BR>
+これも上岡龍太郎のプロゴルファーへの布石か？<BR>
+（ロックは無用に変わるんちゃうで～）<BR>
+<BR>
+以上　　　　　　　　　　　　　Notani<BR>
+<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?31<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00032/00112 LDJ03074  橋本健一         RE:ノックは無用<BR>
+( 1)   97/10/01 20:04  00031へのコメント<BR>
+<BR>
+&gt;今日９月２７日（土）に関西お笑い長寿番組　ノックは無用<BR>
+&gt;が最終回を迎えました。<BR>
+<BR>
+なにおー、(ここは上方柳二,柳太風に読んでね)<BR>
+それは名残惜しいなー。まあ、たしかに雀々は,あまりなじんでなかったな。<BR>
+その前の桑原正平も。たまにノックさんが国会で休んだ時にピンチヒッター<BR>
+で桑原正平がやるぶんには、気分転換できて、上岡竜太郎、桑原正平の<BR>
+京都西高校コンビもよかってんけどね。ずっと続けるのはちょっときついな。<BR>
+<BR>
+&gt;あの名言の数々がきけないとなると<BR>
+<BR>
+ハンドバックはあなたのお手元をおしゃれアップする神戸、大阪、名古屋<BR>
+ハンドバックの道草<BR>
+靴はあなたの足元をおしゃれアップする大阪前第４ビルとみやま<BR>
+髪は軽くて自然just fitあなたのもう１つの髪フォンテーヌ<BR>
+以上各社のよりすぐりの商品を変身に使用いたしております。それでは<BR>
+変身前のビデオテープをごらんください。<BR>
+この方がどうかわっておりますか,魅惑の変身。<BR>
+<BR>
+あー、ほんまにこれらの名言がきけなくなるとは、トホー(ここは文幅風に)<BR>
+ノックさんがおれへんから、ほんまにノックは無用やってんけど<BR>
+<BR>
+&gt;（ロックは無用に変わるんちゃうで～）<BR>
+<BR>
+??? ロックて誰やった?<BR>
+<BR>
+--<BR>
+hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?32<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER22" onmouseout="HpbImgSwap('_HPB_ROLLOVER22', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER22', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER22"></a><BR>
+<BR>
+<BR>
+00033/00112 RXK00515 野谷　武 RE:ノックは無用<BR>
+( 1)   97/10/04 17:40                     コメント数：1<BR>
+<BR>
+わんばんこ　野谷です。<BR>
+ＲＥ：ノックは無用<BR>
+<BR>
+＞あの名言の数々がきけないとなると<BR>
+<BR>
+＞ハンドバックはあなたのお手元をおしゃれアップする神戸、大阪、名古屋<BR>
+＞ハンドバックの道草<BR>
+＞靴はあなたの足元をおしゃれアップする大阪前第４ビルとみやま<BR>
+＞髪は軽くて自然just fitあなたのもう１つの髪フォンテーヌ<BR>
+＞以上各社のよりすぐりの商品を変身に使用いたしております。それでは<BR>
+＞変身前のビデオテープをごらんください。<BR>
+＞この方がどうかわっておりますか,魅惑の変身。<BR>
+<BR>
+橋健　ほんまに横浜に住んどんか？<BR>
+毎週の様に見てるこの俺でさえここまですらすら出て込んで<BR>
+<BR>
+&gt;（ロックは無用に変わるんちゃうで～）<BR>
+<BR>
+??? ロックて誰やった?<BR>
+なんでここまで名言を暗記してるのに”ロックは無用”を知らんのや<BR>
+ノックさんが国会中とか選挙中のとき桑原正平が司会をしてたやろ<BR>
+そのときは”ロックは無用”になっとたやろ<BR>
+<BR>
+今日１０月４日（土）は、関テレの新社屋の完成記念の特別番組<BR>
+（例のごとく上岡、坂東、たかじん、ｅｔｃ）でまだ次の番組が<BR>
+どんなんかはわからん<BR>
+<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?33<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00034/00112 LDJ03074  橋本健一         RE:ノックは無用<BR>
+( 1)   97/10/06 17:39  00033へのコメント  コメント数：1<BR>
+<BR>
+&gt;なんでここまで名言を暗記してるのに”ロックは無用”を知らんのや<BR>
+&gt;ノックさんが国会中とか選挙中のとき桑原正平が司会をしてたやろ<BR>
+&gt;そのときは”ロックは無用”になっとたやろ<BR>
+<BR>
+へー、桑原正平の時は”ロックは無用”やったんかいな。<BR>
+それは知らなんだ。横浜市民なもんで。(:-P<BR>
+<BR>
+&gt;今日１０月４日（土）は、関テレの新社屋の完成記念の特別番組<BR>
+<BR>
+えー、茶屋町のMBSにつずいて、関テレまで新社屋をつくったんか?<BR>
+いったいどこにできたん? <BR>
+&gt;（例のごとく上岡、坂東、たかじん、ｅｔｃ）でまだ次の番組が<BR>
+&gt;どんなんかはわからん<BR>
+<BR>
+新番組がわかったら、レポートしてください。<BR>
+<BR>
+--<BR>
+hashimot<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?34<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER23" onmouseout="HpbImgSwap('_HPB_ROLLOVER23', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER23', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER23"></a><BR>
+<BR>
+<BR>
+00035/00112 BXL00240  大門　哲士　　　 RE:ノックは無用<BR>
+( 1)   97/10/06 21:20  00034へのコメント  コメント数：1 <BR>
+＞今日１０月４日（土）は、関テレの新社屋の完成記念の特別番組<BR>
+<BR>
+おお、やってたやってた！<BR>
+新社屋はどこなんやろ？俺もはっきりしらん。<BR>
+まえの社屋からそんなに遠くないみたいな感じやったけど。。<BR>
+番組の最初の方は、芸人集めてクイズやってた。<BR>
+その時久々に春けいこ見たわ。<BR>
+<BR>
+久々といえば、日曜の朝、日テレ系でやってる『波瀾万丈』で<BR>
+みやこ蝶々が出演してた。あの人、生まれは東京生まれらしいな！<BR>
+人をしかる時は東京弁になるらしい。<BR>
+<BR>
+みやこ蝶々、結構元気そうやった！<BR>
+<BR>
+S.Daimon<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?35<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00036/00112 LDJ03074  橋本健一         RE:ノックは無用<BR>
+( 1)   97/10/07 18:12  00035へのコメント<BR>
+<BR>
+&gt;久々といえば、日曜の朝、日テレ系でやってる『波瀾万丈』で<BR>
+&gt;みやこ蝶々が出演してた。あの人、生まれは東京生まれらしいな！<BR>
+<BR>
+俺も先日、ニュースステーションでみやこ蝶々みたでー。<BR>
+元気そうやったけど、話題は「身寄りがおらんから、死んだら葬式の裳主<BR>
+がおらん。これはなんぎなこっちゃ。」というような話でした。<BR>
+<BR>
+--<BR>
+hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?36<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00037/00112 BXL00240 大門　哲士　　　 大型トレード<BR>
+( 1)   97/10/15 00:05                     コメント数：1<BR>
+<BR>
+阪神：関川+久慈<BR>
+と<BR>
+中日：大豊+矢部<BR>
+のトレード、どう思う？<BR>
+個人的にはなんか、損した感あり！<BR>
+関川はもったいない！<BR>
+<BR>
+S.Daimon<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?37<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER24" onmouseout="HpbImgSwap('_HPB_ROLLOVER24', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER24', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER24"></a><BR>
+<BR>
+<BR>
+00038/00112 LDJ03074 橋本健一 RE:大型トレード<BR>
+( 1)   97/10/15 18:19  00037へのコメント<BR>
+<BR>
+&gt;阪神：関川+久慈<BR>
+&gt;と<BR>
+&gt;中日：大豊+矢部<BR>
+&gt;のトレード、どう思う？<BR>
+&gt;個人的にはなんか、損した感あり！<BR>
+&gt;関川はもったいない！<BR>
+<BR>
+中日の大豊は知ってるけど、矢部てどんな選手やったかな？<BR>
+阪神は昔からトレードへたやからなー。昭和38年のロッテ:山内と阪神:小山<BR>
+の時は世紀のトレードといわれたけど、小山はロッテへ行って３０勝したのに<BR>
+山内は阪神で２割５分しか打たへんかったらしい。うちのお父親もあれは大損<BR>
+やったなーというてた。<BR>
+オリックス:松永と阪神:野田のトレードも、野田はオリックスでエースになってる<BR>
+のに松永はケガばかりして、あげくのはてにＦＡ宣言してダイエーにいってもた。<BR>
+いかれてるようなもんやで。<BR>
+紳助が昔、上岡龍太郎に<BR>
+「阪神やめたら皆活躍しまんな。吉竹、西部行ってがんばってますな。<BR>
+北村、西部行ってがんばってますな。なんでっか、阪神は西部の２軍でっか？<BR>
+一生懸命選手を育てては、西部にトレードして、歳とっていらんようになった<BR>
+田尾を金でもろたりね。」<BR>
+というてました。なんと、うまいこという。<BR>
+--<BR>
+Ken-ichi Hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?38<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00039/00112 BXL00240 大門　哲士　　　 アメリカ行ってきます！<BR>
+( 1)   97/10/23 22:23                     コメント数：1<BR>
+<BR>
+10/24より、11/1まで米国出張です。<BR>
+しばらく顔出せませんのでどうぞ宜しく。<BR>
+<BR>
+S.Daimon<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?39<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00040/00112 LDJ03074  橋本健一         RE:アメリカ行ってきます！<BR>
+( 1)   97/10/25 23:19  00039へのコメント<BR>
+<BR>
+気をつけて、いってらっしゃい。<BR>
+--<BR>
+ken-ichi hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?40<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER25" onmouseout="HpbImgSwap('_HPB_ROLLOVER25', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER25', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER25"></a><BR>
+<BR>
+<BR>
+00041/00112 LDJ03074 橋本健一 ジャック・ライアン・シリーズ<BR>
+( 1)   97/10/27 14:56<BR>
+<BR>
+先日「パトリオット・ゲーム」を見ました。先々週は<BR>
+「今そこにある危機」を見ました。「パトリオット・ゲーム」<BR>
+は２度目ですが、「今そこにある危機」は初めて見ました。<BR>
+ハリソン・フォードの奥さん、ＣＩＡの提督など登場人物が<BR>
+同じやし、ハリソン・フォードの役もＣＩＡのアナリストの<BR>
+ライアン博士であるし、<BR>
+なんかこれ「パトリオット・ゲーム」と似てるなーと思ってたら、<BR>
+これはシリーズ物だったんですね。<BR>
+ジャック・ライアン・シリーズ第２段「パトリオット・ゲーム」、<BR>
+第３段「今そこにある危機」であり、第１段はなんと、あの名作<BR>
+「レッド・オクトーバーを追え」だったのです。どうりで、ＣＩＡ<BR>
+の提督も、あの黒人の銀縁の眼鏡かけた人やし、ヘリコプターから<BR>
+潜水艦に飛び移った命知らずのＣＩＡアナリストの名前もジャック・<BR>
+ライアンやった。ただ、ライアン役がハリソン・フォードとは<BR>
+ちゃうかった。<BR>
+「レッド・オクトーバーを追え」もハリソン・フォードがやれば<BR>
+よかったのに。<BR>
+<BR>
+＃「レッド・オクトーバーを追え」でライアン博士が<BR>
+＃ヘリから潜水艦へ飛び移ったシーンは無謀やった。<BR>
+＃あれは、藤岡弘の「リアル・ゴールド」を意識してるな。(^_^)<BR>
+<BR>
+--<BR>
+hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?41<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00042/00112 RXK00515 野谷　武 RE：ジャック・ライアン<BR>
+( 1)   97/11/01 18:31                     コメント数：1<BR>
+<BR>
+どうも　久々の発言です。<BR>
+橋健　ジャック・ライアンシリーズって知らんかったけ<BR>
+何か俺との話の中でシリーズもんやって言わんかったかなー<BR>
+<BR>
+＃「レッド・オクトーバーを追え」でライアン博士が<BR>
+＃ヘリから潜水艦へ飛び移ったシーンは無謀やった。<BR>
+＃あれは、藤岡弘の「リアル・ゴールド」を意識してるな。<BR>
+ してへん！してへん！<BR>
+藤岡弘の名前すらしらんわ<BR>
+とゆうか日本ですらこの話題を理解できない奴の方が多いと思う。<BR>
+今度公開の映画（ハリソン君主演）　エアフォースワンに期待<BR>
+してるんやけど<BR>
+<BR>
+それから話は変わるけど<BR>
+今日　１１月１日（土）からノックは無用の次の番組<BR>
+がスタートしました。<BR>
+番組名はちょっと忘れたけど<BR>
+司会　月亭八方<BR>
+あと高島忠夫　そのまんま東　島田洋八<BR>
+でした。<BR>
+途中から見たんでレギュラーが誰かよう分からん？<BR>
+そんでもっておもろいかって言うと<BR>
+まだ何とも言えんなー<BR>
+<BR>
+大門へ<BR>
+フォンドボーディナーカレー　食べたけど<BR>
+俺の口には、合わんわ<BR>
+大塚のｇｏｏの方がうまい（桜井幸子の方）<BR>
+<BR>
+　　　　　　　　　　　　　　　Notani<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?42<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER26" onmouseout="HpbImgSwap('_HPB_ROLLOVER26', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER26', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER26"></a><BR>
+<BR>
+<BR>
+00043/00112 LDJ03074 橋本健一 RE:RE：ジャック・ライアン<BR>
+( 1)   97/11/04 13:04  00042へのコメント<BR>
+<BR>
+&gt;橋健　ジャック・ライアンシリーズって知らんかったけ<BR>
+&gt;何か俺との話の中でシリーズもんやって言わんかったかなー<BR>
+<BR>
+そういえば、した記憶ある。そのときは「パトリオット・ゲーム」と<BR>
+「今そこにある危機」がシリーズ者いうことは認識してたけど(ハリソン・<BR>
+フォードがでてるから),「レッドオクトーバーを追え」は認識してなかった。<BR>
+ライアンよりもショーン・コネリーの印象のほうが強かった。<BR>
+<BR>
+&gt;してへん！してへん！<BR>
+&gt;藤岡弘の名前すらしらんわ<BR>
+<BR>
+藤岡弘は香港映画とかにも出演してる国際スターやで。<BR>
+ひょっとしたら、名前くらい知ってるかも。(^_^)<BR>
+<BR>
+&gt;とゆうか日本ですらこの話題を理解できない奴の方が多いと思う。<BR>
+<BR>
+それは言える。:-)<BR>
+<BR>
+&gt;あと高島忠夫　そのまんま東　島田洋八<BR>
+<BR>
+えっ島田洋八？、洋七(広島)とちがって洋八(岡山)か？ながいこと見んかったけど<BR>
+まだ芸人やっとったんか？<BR>
+<BR>
+&gt;フォンドボーディナーカレー　食べたけど<BR>
+<BR>
+フォンドボーディナーカレーをさがしに行ったけど、レトルトとちがって<BR>
+ルーやった。レトルトもあるの？<BR>
+<BR>
+--<BR>
+hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?43<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00044/00112 BXL00240 大門　哲士　　　 帰国しました。<BR>
+( 1)   97/11/09 22:14                     コメント数：1<BR>
+<BR>
+どうも。ご無沙汰です。<BR>
+米国より無事帰国しました。<BR>
+<BR>
+あたりまえですが、むこうは英語ばっかりで<BR>
+もう、かなりストレスがたまって大変でした。<BR>
+やっぱり日本が良いです。<BR>
+<BR>
+でも、シカゴのLiveHouseは安くて良かったです。<BR>
+<BR>
+＞フォンドボーディナーカレー　食べたけど<BR>
+＞俺の口には、合わんわ<BR>
+＞大塚のｇｏｏの方がうまい（桜井幸子の方）<BR>
+<BR>
+そうか、やっぱり好みの差があんねんなぁ・・・。<BR>
+<BR>
+＞フォンドボーディナーカレーをさがしに行ったけど、レトルトとちがって<BR>
+＞ルーやった。レトルトもあるの？<BR>
+<BR>
+あるある。<BR>
+ノッチ食べたんがそれやろ？<BR>
+S.Daimon<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?44<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER27" onmouseout="HpbImgSwap('_HPB_ROLLOVER27', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER27', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER27"></a><BR>
+<BR>
+<BR>
+00045/00112 LDJ03074  橋本健一         RE:帰国しました。<BR>
+( 1)   97/11/11 21:30  00044へのコメント  コメント数：1<BR>
+<BR>
+&gt;米国より無事帰国しました。<BR>
+お帰りなさい。無事つつがなくてなによりです。<BR>
+アメリカというと映画とかの印象で、治安が悪いというイメージやけど<BR>
+大丈夫でしたか？<BR>
+とくに無防備な日本人観光客はねらわれやすいとかいうけど、<BR>
+暗くなったら外歩かないほうがええとか、地下鉄には乗らないほうがええとか<BR>
+やっぱりそんなんあるの？<BR>
+--<BR>
+hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?45<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00046/00112 BXL00240  大門　哲士　　　 RE:帰国しました。<BR>
+( 1)   97/11/12 23:52  00045へのコメント  コメント数：1<BR>
+<BR>
+＞とくに無防備な日本人観光客はねらわれやすいとかいうけど、 ＞暗くなったら外歩かないほうがええとか、地下鉄には乗らないほうがええとか<BR>
+＞やっぱりそんなんあるの？<BR>
+<BR>
+あります、あります。<BR>
+「ここより向こうは行かん方が良い」・・というとこ、結構あります。<BR>
+特に夜は危ないそうや！公園、地下鉄等<BR>
+麻薬中毒者も多いらしい。もちろん物取りも！<BR>
+背広着た日本人は狙われやすいそうです。<BR>
+<BR>
+私も上司から「夜は出歩くな！」と釘をさされてました。<BR>
+<BR>
+S.Daimon<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?46<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER28" onmouseout="HpbImgSwap('_HPB_ROLLOVER28', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER28', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER28"></a><BR>
+<BR>
+<BR>
+00047/00112 LDJ03074  橋本健一         ニュースステーション高成田氏<BR>
+( 1)   97/11/14 00:01<BR>
+<BR>
+木曜日のニュースステーションで、コメンテーターの高成田さんが<BR>
+今日で終わりだといってました。<BR>
+なんか突然の降板という印象です。前コメンテーター（名前忘却）<BR>
+は確か新進党議員の国会座り込みの報道で、「パフォーマンス」<BR>
+うんぬんの発言をしたことが原因で海外支局へとばされたようですが<BR>
+高成田氏もなにか不穏当な発言をしたのかしら？<BR>
+前日（水曜日）のオンエアで、郵政事業の民営化問題について<BR>
+「情報通信という世界的に巨大な産業を、自由競争させようとせず<BR>
+役所が管理しようなどとは、まるでソビエトだ。郵政省なんかいらない。<BR>
+役人が民営化に反対しているのは、自分たちの利権を守ろうとしている<BR>
+だけで、国をほろぼそうとしている。」<BR>
+というような発言をしているのをきいて、ずいぶん過激なこというなあ<BR>
+と感じたけど、その翌日に降板するとは驚きました。<BR>
+--<BR>
+hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?47<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+<BR>
+00048/00112 LDJ03074 橋本健一 RE:帰国しました。<BR>
+( 1)   97/11/14 23:01  00046へのコメント<BR>
+<BR>
+&gt;背広着た日本人は狙われやすいそうです。<BR>
+<BR>
+なるほど、背広を着た日本人がねらわれるのか。ゴルゴ１３がよく 強盗にねらわれる理由がわかった。さらに、大金の入ってそうな<BR>
+アタッシュケースを持ち歩いてるし。<BR>
+まあ、おそわれても１００％返り討ちやけど。(^_^)<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?48<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00049/00112 RXK00515 野谷　武 大門　お帰り<BR>
+( 1)   97/11/15 21:32<BR>
+<BR>
+大門、お帰り<BR>
+大塚は、アメリカでもボンカレー売るんか？<BR>
+<BR>
+先日、会社でカロリーメイトの試食品を配ってたわ<BR>
+当然、もらって食べてみたけど（初めて食べるねんけど）<BR>
+まずまずの味や<BR>
+その前は、オリゴ糖の入った飲料水を配ってたわ<BR>
+これは、注意書きに体調の悪い方が飲むと下痢になるかも<BR>
+と書かれていたので飲まんかった<BR>
+下痢おこすような飲み物　あかんで<BR>
+<BR>
+橋健へ<BR>
+&gt;あと高島忠夫　そのまんま東　島田洋八<BR>
+<BR>
+えっ島田洋八？、洋七(広島)とちがって洋八(岡山)か？ながいこと見んかったけど まだ芸人やっとったんか？<BR>
+<BR>
+すまん　洋七や　さすが橋健チェック厳しい<BR>
+<BR>
+<BR>
+notani<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?49<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER29" onmouseout="HpbImgSwap('_HPB_ROLLOVER29', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER29', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER29"></a><BR>
+<BR>
+<BR>
+00050/00112 BXL00240  大門　哲士　　　 祝！日本サッカーＷ杯出場決定！！！！<BR>
+( 1)   97/11/17 20:28                     コメント数：1<BR>
+<BR>
+祝！！日本、サッカーワールドカップ出場！！<BR>
+<BR>
+ドーハから4年。やっと夢かないました。<BR>
+<BR>
+イラン戦、感動させてもらいました。<BR>
+（でも、寿命が数年縮まった感じ）<BR>
+<BR>
+私、ここ3ヶ月はサッカー漬けでした。<BR>
+<BR>
+S.Daimon<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?50<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00051/00112 FZC03004 橋本健一 RE:祝！日本サッカーＷ杯出場決定！！！！<BR>
+( 1)   97/11/24 00:01  00050へのコメント<BR>
+<BR>
+&gt;イラン戦、感動させてもりました。<BR>
+<BR>
+いや、ほんま。逆転された時はあかんと思った。<BR>
+来年のワールドカップが楽しみやなー。<BR>
+オリンピックとちがってワールドカップはプロが出るし、<BR>
+あの韓国でもワールドカップで１勝もしてないらしいので、<BR>
+１勝できるかしら。<BR>
+<BR>
+＃ＮＩＦＴＹに加入したので、そのＩＤで書いてみました。<BR>
+<BR>
+--<BR>
+hashimoto<BR>
+NIFTY : FZC03004<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?51<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00052/00112 RXK00515 野谷　武 ｗ杯出場<BR>
+( 1)   97/11/24 20:48                     コメント数：1<BR>
+<BR>
+やったぜ　日本Ｗ杯初出場<BR>
+とうとう出場出来たぜ　まるで夢のようや<BR>
+特にイラン戦は、劇的な終わり方やったし<BR>
+これで２００２年Ｗ杯が日本で開催されても恥ずかしくないわ<BR>
+<BR>
+橋健　Nifty IDとったんか？<BR>
+＜質問＞<BR>
+インターネットからNiftyに接続できるやろ<BR>
+でもpatioには、接続できないやんか（メール、フォーラムはＯＫ）<BR>
+でももうすぐ接続出来るようになるってほんとか？<BR>
+なんか情報知ってたら教えてちょ<BR>
+<BR>
+　　　　　　　　　　　　　　　　　　　　　　Notani<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?52<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER30" onmouseout="HpbImgSwap('_HPB_ROLLOVER30', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER30', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER30"></a><BR>
+<BR>
+<BR>
+00053/00112 FZC03004  橋本健一         RE:ｗ杯出場<BR>
+( 1)   97/11/25 21:35  00052へのコメント  コメント数：1<BR>
+<BR>
+＞橋健　Nifty IDとったんか？<BR>
+<BR>
+そう、加入したよ。<BR>
+<BR>
+＞＜質問＞<BR>
+＞インターネットからNiftyに接続できるやろ<BR>
+＞でもpatioには、接続できないやんか（メール、フォーラムはＯＫ）<BR>
+＞でももうすぐ接続出来るようになるってほんとか？<BR>
+＞なんか情報知ってたら教えてちょ<BR>
+<BR>
+それは初耳やな。メールはドメインをniftyserve.or.jpにすれば<BR>
+送れるけど、フォーラムには参加できるのかしら？Nifty会員でなくても<BR>
+参加資格があるのかしら？それとも一時利用だけかな？<BR>
+それはどこからの情報や？<BR>
+<BR>
+＃でも、そうなるとNiftyやめる人が多くなるんちゃうかな。<BR>
+＃最近Niftyの料金体系が変更になって、月額１５時間２０００円<BR>
+＃のコースができたので（これでもノッチの契約しているプロバイダ<BR>
+＃よりは高いけど）、逆にNiftyでインターネットの<BR>
+＃ホームページにアクセスするようにして、プロバイダ接続を<BR>
+＃やめようかなーと迷っているところです。<BR>
+<BR>
+--<BR>
+hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?53<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00054/00112 BXL00240  大門　哲士　　　 Nifty HomePage<BR>
+( 1)   97/11/27 20:04  00053へのコメント  コメント数：1<BR>
+<BR>
+毎度です。<BR>
+<BR>
+&gt; ＞橋健　Nifty IDとったんか？<BR>
+&gt; <BR>
+&gt; そう、加入したよ。<BR>
+<BR>
+ちなみに、個人メールを打つ必要があるときはどっちのIDを使えば良いのでしょう？<BR>
+&gt; <BR>
+&gt; ＞＜質問＞<BR>
+&gt; ＞インターネットからNiftyに接続できるやろ<BR>
+&gt; ＞でもpatioには、接続できないやんか（メール、フォーラムはＯＫ）<BR>
+&gt; ＞でももうすぐ接続出来るようになるってほんとか？<BR>
+&gt; ＞なんか情報知ってたら教えてちょ<BR>
+&gt; <BR>
+11/26よりPatio接続可能となってるわ。（このコメントもインターネット経由です）<BR>
+<BR>
+&gt;フォーラムには参加できるのかしら？<BR>
+<BR>
+参加可能や。自分の登録しているフォーラムの一覧が表示され便利。<BR>
+<BR>
+&gt; Nifty会員でなくても参加資格があるのかしら？それとも一時利用だけかな？<BR>
+<BR>
+Niftyの会員であれば従来通りに使用できるよ。<BR>
+<BR>
+&gt; それはどこからの情報や？<BR>
+<BR>
+インターネットのNifty-ServeのHomePageに行って下さい。<BR>
+ほんで、InterWayをクリックすれば、Niftyに入れます。<BR>
+<BR>
+&gt; ＃でも、そうなるとNiftyやめる人が多くなるんちゃうかな。<BR>
+<BR>
+いやいや、サービスに入る前にちゃんと、NiftyのID&amp;PassWordを聞いてきます。<BR>
+<BR>
+S.Daimon<BR>
+<BR>
+この発言に対するコメント https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?54<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER31" onmouseout="HpbImgSwap('_HPB_ROLLOVER31', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER31', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER31"></a><BR>
+<BR>
+<BR>
+00055/00112 FZC03004 橋本健一 RE: Nifty HomePage<BR>
+( 1)   97/11/28 18:40  00054へのコメント  コメント数：1<BR>
+<BR>
+&gt;ちなみに、個人メールを打つ必要があるときはどっちのIDを使えば<BR>
+&gt;良いのでしょう？<BR>
+<BR>
+FZC03004の方にください。<BR>
+LDJ03074は会社用なので、会社でしか使わないようにするつもりです。<BR>
+そして、会社ではほとんどE-mailなので、LDJ03074はなかなか見ない<BR>
+ようになる可能性があるので。<BR>
+<BR>
+＞11/26よりPatio接続可能となってるわ。<BR>
+＞（このコメントもインターネット経由です）<BR>
+<BR>
+＞インターネットのNifty-ServeのHomePageに行って下さい。<BR>
+＞ほんで、InterWayをクリックすれば、Niftyに入れます。<BR>
+<BR>
+ほんまや。はいれた。このコメントもインターネット経由で書きました。<BR>
+でも、なんでわざわざインターネット経由ではいるの？<BR>
+Nifty Managerが使いにくいからかな？<BR>
+なにかメリットあったら、教えてチョウダイ！！（ここ財津一郎ふうに）(^_^<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?55<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00056/00112 BXL00240  大門　哲士　　　 RE: Nifty HomePage<BR>
+( 1)   97/11/28 19:54  00055へのコメント  コメント数：1<BR>
+<BR>
+&gt; ほんまや。はいれた。このコメントもインターネット経由で書きました。<BR>
+&gt; でも、なんでわざわざインターネット経由ではいるの？<BR>
+&gt; Nifty Managerが使いにくいからかな？<BR>
+&gt; なにかメリットあったら、教えてチョウダイ！！<BR>
+<BR>
+そやなぁ、まずはインターネットで来たメールをチェックするため等で、接続した際、<BR>
+ついでにNiftyHomePageに飛べば、Nifty経由のメールやパティオもチェック可能。<BR>
+（いちいちニフティーマネージャーを立ち上げ、ニフティーに接続する手間が省ける）<BR>
+<BR>
+それと、インターネットのニフティーの方が、操作がし易い。<BR>
+Patioなんか、カラー表示やし、とてもわかりやすい。<BR>
+コメントチェーンも表示されている。<BR>
+（GUI環境が良く、操作し易い。Patioであれば発言に対するコメントが1クリックで実<BR>
+行できる。つまり、発言内容を打ち込む以外はマウスのみで操作できる）<BR>
+<BR>
+不便な点は、個人メールを打つ際に、アドレスブックが対応していない！<BR>
+<BR>
+以上、現在までの個人的な感想。まぁ、しばらく並行して使ってみるつもりです。<BR>
+<BR>
+S.Daimon<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?56<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER32" onmouseout="HpbImgSwap('_HPB_ROLLOVER32', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER32', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER32"></a><BR>
+<BR>
+<BR>
+00057/00112 FZC03004 橋本健一 RE: Nifty HomePage<BR>
+( 1)   97/11/29 13:14  00056へのコメント  コメント数：1<BR>
+<BR>
+＞そやなぁ、まずはインターネットで来たメールをチェックするため<BR>
+＞等で、接続した際、<BR>
+＞ついでにNiftyHomePageに飛べば、Nifty経由のメールやパティオも<BR>
+＞チェック可能。<BR>
+<BR>
+なるほど、インターネットの方を基本にすれば、インターネット経由<BR>
+ですべてできれた方が使いやすいなぁ。<BR>
+<BR>
+＞それと、インターネットのニフティーの方が、操作がし易い。<BR>
+＞（GUI環境が良く、操作し易い。<BR>
+<BR>
+それはいえる。Nifty ManegerでNiftyのGUI環境が使いやすくなったにも<BR>
+かかわらず、Patioに関しての操作性はまるでNifty Maneger以前のソフト<BR>
+（例えばWTERMとか）みたいにテキストベースのインタフェースやもんなぁ。<BR>
+しかし、インターネット接続したまま、Niftyにアクセスすると、両方の<BR>
+アクセスチャージがかかってしまう。(^_^; <BR>
+まあ、プトバイダの料金は普通、一定時間内までは固定なので、その範囲内<BR>
+なら気にすることもないけどね。<BR>
+--<BR>
+hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?57<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00058/00112 RXK00515  野谷　武         RE: Nifty HomePage<BR>
+( 1)   97/11/29 17:40  00057へのコメント<BR>
+<BR>
+毎度、インターネットでNifty（patio）出来たわ<BR>
+情報　有り難う。<BR>
+<BR>
+&gt; ＞それと、インターネットのニフティーの方が、操作がし易い。<BR>
+&gt; ＞（GUI環境が良く、操作し易い。<BR>
+　<BR>
+それは、いえるけど<BR>
+まだ、インターネットの操作が慣れてなくてちょっと戸惑ってしまいました。<BR>
+その内慣れるやろ<BR>
+<BR>
+&gt; それはいえる。Nifty ManegerでNiftyのGUI環境が使いやすくなったにも<BR>
+&gt; かかわらず、Patioに関しての操作性はまるでNifty Maneger以前のソフト<BR>
+&gt; （例えばWTERMとか）みたいにテキストベースのインタフェースやもんなぁ。<BR>
+&gt; しかし、インターネット接続したまま、Niftyにアクセスすると、両方の<BR>
+&gt; アクセスチャージがかかってしまう。(^_^; <BR>
+&gt; まあ、プトバイダの料金は普通、一定時間内までは固定なので、その範囲内<BR>
+&gt; なら気にすることもないけどね。<BR>
+<BR>
+ほんまやなー<BR>
+いつもうちの兄貴に、いつまでNiftyやってんねん<BR>
+と言われてたんやけど<BR>
+これで、インターネット１本で済むわ<BR>
+料金も得するしな<BR>
+<BR>
+Notani<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?58<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER33" onmouseout="HpbImgSwap('_HPB_ROLLOVER33', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER33', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER33"></a><BR>
+<BR>
+<BR>
+00059/00112 FZC03004  橋本健一         大月みや子<BR>
+( 1)   97/12/03 22:15<BR>
+<BR>
+<BR>
+先日パペポで、上岡龍太郎が<BR>
+「大月みや子は、大月楽器店とみやこ楽器店から名付けられた。<BR>
+それでワルツ堂が怒ったというはなしがある。」<BR>
+というてました。(:-P<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?59<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00060/00112 FZC03004  橋本健一         アッ子におまかせ<BR>
+( 1)   97/12/07 22:45<BR>
+<BR>
+今日、「アッ子におまかせ」のゲストに上岡龍太郎がでてました。<BR>
+ラブアタックの話題がでて、上岡龍太郎が<BR>
+「当時の、かぐや姫へのアタッカーが、今いろいろな局にいますね。<BR>
+たとえば、某ニュースステーションの、高成田氏の後任の論説委員」<BR>
+といってました。<BR>
+テリー伊藤も<BR>
+「朝日新聞の編集委員とは思いませんでした。東京スポーツかと<BR>
+思いましたね。」<BR>
+といってたし、なんか感じちゃうなとおもたら、<BR>
+そんな前歴があったか。(:-P<BR>
+--<BR>
+hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?60<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00061/00112 FZC03004  橋本健一         上岡龍太郎独演会<BR>
+( 1)   97/12/11 22:25                     コメント数：1<BR>
+<BR>
+先日、東京で行なわれた上岡龍太郎独演会に行ってきました。<BR>
+だしものは”「吉川英治 宮本武蔵」を語る”です。<BR>
+”笑い”なしの大真面目の趣向でした。台本をみずに、すべて空で<BR>
+しゃべってました。<BR>
+往年の徳川無声、森繁久弥の芸風といったところでしょうか。<BR>
+ところで、この独演会のマエセツを大空テントがやりました。<BR>
+ネタを一部を紹介すると<BR>
+<BR>
+「急に昔ばなしがしたくなりました。おじいさんは山でしばかれ（笑い）<BR>
+おばあさんは川で洗濯をしました。すると川からももとどんぐりが<BR>
+流れてきました。それを食べて腹をくだしました。<BR>
+ゴロゴロ、ピーチ（笑い）<BR>
+ここで笑わないと、後、笑らえないですよ。ぼくのトークはここが山場<BR>
+ですから。どんな山場や。こんなんや。どんなんや。ウェ、ウェ、」<BR>
+<BR>
+俺はテントを知ってるから、きいてて楽しいけど、知らん東京の人間は<BR>
+きびしかったやろなぁ。<BR>
+--<BR>
+hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?61  <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER34" onmouseout="HpbImgSwap('_HPB_ROLLOVER34', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER34', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER34"></a><BR>
+<BR>
+<BR>
+00062/00112 FZC03004  橋本健一         ４７人の刺客<BR>
+( 1)   97/12/14 18:59                     コメント数：1<BR>
+<BR>
+金曜ロードショーで「４７人の刺客」をみました。<BR>
+高倉健ふんする大石蔵之助が、吉良上野介をしとめるクライマックスで<BR>
+ひとひねり入れて欲しかったな。<BR>
+吉良役は、あの水戸黄門の西村晃。大石が切りつける寸前で、赤い風車<BR>
+が飛んできて、大石の腕にささる。助さん、角さんが赤穂浪士を防いだ<BR>
+ところで西村晃が<BR>
+「助さん、角さん、もういいでしょう」<BR>
+助さん「しずまれー、一同のもの、この紋所が目にはいらぬか」<BR>
+角さん「こちらにおわすお方は先の副将軍水戸光圀公にあらせられるぞ」<BR>
+大石蔵之助「だめだ、こりゃ」（いかりや長助ふうに）<BR>
+--<BR>
+hasimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?62<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00063/00112 RXK00515  野谷　武         RE: ４７人の刺客<BR>
+( 1)   97/12/14 21:16  00062へのコメント<BR>
+<BR>
+金曜ロードショーで「４７人の刺客」をみました。<BR>
+健さんの映画と言うことで話題になったけど<BR>
+同時期に”忠臣蔵　四谷怪談”と言う映画があったんや<BR>
+そっちの方が評価は高かったで～<BR>
+<BR>
+上岡竜太郎　独演会に行ったんか　ええの<BR>
+俺も１度　行ってみたい はよいかんと　引退してしまうからな（アッコにおまかせ　より）<BR>
+<BR>
+大阪市長は独演会せんやろ<BR>
+<BR>
+では　　　　notani<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?63<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00064/00112 BXL00240  大門　哲士　　　 RE: 上岡龍太郎独演会<BR>
+( 1)   97/12/15 01:13  00061へのコメント<BR>
+<BR>
+＞俺はテントを知ってるから、きいてて楽しいけど、知らん東京の人間は<BR>
+＞きびしかったやろなぁ。<BR>
+<BR>
+確かに！！！東京の人間は、全く意味不明やったんとちゃうか！？<BR>
+<BR>
+うちの嫁さんが先日テレビで上岡龍太郎が<BR>
+『テントは70歳になったら売れる。だから長生きせなあかん。』と<BR>
+言っとたを見たらしい。<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?64<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER35" onmouseout="HpbImgSwap('_HPB_ROLLOVER35', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER35', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER35"></a><BR>
+<BR>
+<BR>
+00065/00112 FZC03004 橋本健一 さようなら１９９７年<BR>
+( 1)   97/12/29 23:08<BR>
+<BR>
+今年もおしつまってきましたねー。<BR>
+大晦日に長島と王と広岡がラーメンを食いに行ったんです。広岡が<BR>
+「おい長島、おまえ何する、しょうゆラーメンか、<BR>
+おい王、おまえ何する、王、みそか、おうみそか」<BR>
+（歌って笑ってドンドコドンより）<BR>
+誰もわろてへん？<BR>
+そやからわしは、このしゃれ言うのん、いやや言うたんや<BR>
+さようなら１９９７年 (^_^<BR>
+--<BR>
+hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?65<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00066/00112 BXL00240  大門　哲士　　　 帰省日程<BR>
+( 1)   97/12/29 23:43 <BR>
+帰省日程です。<BR>
+<BR>
+都合により12/31に大阪に帰る予定です。<BR>
+1/3までは大阪にいると思います。<BR>
+<BR>
+みんなによろしく。<BR>
+<BR>
+Daimon<BR>
+<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?66<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00067/00112 FZC03004  橋本健一         関東地方は大雪<BR>
+( 1)   98/01/15 20:50<BR>
+<BR>
+新年の初投稿です。今年もよろしく。<BR>
+今日は関東地方は大雪です。かなり積もってます。雪のためラグビーの<BR>
+日本選手権も中止になりました。<BR>
+先週の８日木曜日も、昼から大雪がふりJRがストップしました。<BR>
+会社は地下鉄沿線で、地下鉄で新横浜からJRに乗り換えができず、<BR>
+また会社に戻ってきて会社に泊った人や、数時間タクシー待ちをした人や<BR>
+車通勤の人が渋滞のため帰宅に６時間かかった人や、大混乱でした。<BR>
+おれは地下鉄沿線にのため、問題なかったけど、駅から１５分歩くため<BR>
+何度もすべりそうになりました。<BR>
+明日の通勤もたいへんやわ。<BR>
+--<BR>
+hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?67<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER36" onmouseout="HpbImgSwap('_HPB_ROLLOVER36', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER36', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER36"></a><BR>
+<BR>
+<BR>
+00068/00112 BXL00240 大門　哲士　　　 今年もよろしく！＆にゅんこの住所<BR>
+( 1)   98/01/26 20:44                     コメント数：1<BR>
+<BR>
+どうも、最近忙しくてなかなかニフティーに入れてません。<BR>
+スンマセン。<BR>
+<BR>
+＞今日は関東地方は大雪です。かなり積もってます。雪のためラグビーの<BR>
+＞日本選手権も中止になりました。<BR>
+<BR>
+ニュースで見ました。かなりすごかったみたいやね！<BR>
+徳島は全くふらんかったわ。<BR>
+でも、一昨日（1/24）に雪がふり7センチの積雪を記録しました。<BR>
+徳島の積雪は2年ぶりです！<BR>
+<BR>
+それから、大阪で約束したにゅんこの中国での住所です。<BR>
+ちなみに去年はそこに年賀状書きましたが、音沙汰なかったです。<BR>
+（今年は出してません）<BR>
+<BR>
+Garden Hotel Shanghai 58 Mao Ming Nan Lu.Shanghai 200020 China<BR>
+ もう、引っ越したかもしれません！？<BR>
+<BR>
+ところでノッチ、たんべはニフティー入れたんか？<BR>
+<BR>
+S.Daimon<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?68<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00069/00112 FZC03004  橋本健一         RE:今年もよろしく！＆にゅんこの住所<BR>
+( 1)   98/02/01 20:00  00068へのコメント  コメント数：1<BR>
+<BR>
+&gt;それから、大阪で約束したにゅんこの中国での住所です。<BR>
+<BR>
+どうもです。寒中見舞い（そんなんあるのかしら）でも出してみます。<BR>
+<BR>
+&gt;ところでノッチ、たんべはニフティー入れたんか？<BR>
+<BR>
+えっ、たんべニフティーに加入する予定があるの？<BR>
+それはＰＡＴＩＯに招待せないかんね。<BR>
+<BR>
+＃パペポが３月で終了してしまうみたい。<BR>
+＃「鶴瓶上岡激突夜話」の頃からの長年のmy favorite program<BR>
+＃やったのに残念や。<BR>
+--<BR>
+hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?69<BR>
+<BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER37" onmouseout="HpbImgSwap('_HPB_ROLLOVER37', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER37', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER37"></a><BR>
+<BR>
+<BR>
+00070/00112 RXK00515 野谷　武 RE:今年もよろしく！＆にゅんこの住所<BR>
+( 1)   98/02/14 17:15  00069へのコメント  コメント数：1<BR>
+<BR>
+どうも　notaniです<BR>
+<BR>
+&gt;ところでノッチ、たんべはニフティー入れたんか？<BR>
+<BR>
+えっ、たんべニフティーに加入する予定があるの？<BR>
+それはＰＡＴＩＯに招待せないかんね。<BR>
+<BR>
+こないだ　たんべに電話したんやけど　そのこと言うの<BR>
+忘れてたわ<BR>
+すまん<BR>
+<BR>
+＃パペポが３月で終了してしまうみたい。 ＃「鶴瓶上岡激突夜話」の頃からの長年のmy favorite program<BR>
+＃やったのに<BR>
+<BR>
+らしいの～<BR>
+これは橋健にとっては痛いんとちゃうか？<BR>
+<BR>
+ところで最近は長野五輪ばっかりみてるわ<BR>
+結構　感動してる　でもジャンプの原田のみごとな演出には<BR>
+まいるわ<BR>
+まさに緊張と緩和やの　次のラージヒルに期待だ！<BR>
+<BR>
+notani<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?70<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00071/00112 FZC03004  橋本健一         RE:今年もよろしく！＆にゅんこの住所<BR>
+( 1)   98/02/24 23:54  00070へのコメント<BR>
+<BR>
+<BR>
+&gt;＃パペポが３月で終了してしまうみたい。<BR>
+&gt;＃「鶴瓶上岡激突夜話」の頃からの長年のmy favorite program<BR>
+&gt;＃やったのに<BR>
+&gt;<BR>
+&gt;らしいの～<BR>
+&gt;これは橋健にとっては痛いんとちゃうか？<BR>
+<BR>
+痛い、痛い。パペポは終わるし、ノックは無用は終わるし、<BR>
+ときめきタイムリーは終わるし、婚ピュータは終わるし、 僕らは怪しいサラリーマンは終わるし（いつの話や）(^_^；<BR>
+<BR>
+ところで、同窓会はおもろかったか？ -&gt; のっち<BR>
+おもろいネタがあったら紹介してね。<BR>
+--<BR>
+hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?71<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER38" onmouseout="HpbImgSwap('_HPB_ROLLOVER38', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER38', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER38"></a><BR>
+<BR>
+<BR>
+00072/00112 RXK00515  野谷　武         久々です ( 1)   98/03/29 16:41                     コメント数：1<BR>
+<BR>
+どうも　久々の投稿です。<BR>
+このごろ仕事の方がかなり忙しくてなかなかｐａｔｉｏの方も<BR>
+のぞけなくてみんな元気か？<BR>
+<BR>
+ほんとやったら同窓会の報告をせなあかんのやけど<BR>
+俺もちょっと行けなくてどんな感じか情報ないねん<BR>
+すまん　ただ目新しい顔として中井が来るという話は佐伯が言っとった<BR>
+あと大久保がまた引っ越したみたいや<BR>
+２月の初旬やと思うけど<BR>
+ちょうど電話したら奥さんが出てそんなこと言ってたんや（大久保不在）<BR>
+でも引っ越し先とか詳しい話をせんまま切ってしまって<BR>
+また住所変更の連絡が来るやろと思ってたらぜんぜん来ないし　<BR>
+みんなのとこもし連絡あったんやったら教えてくれ<BR>
+<BR>
+それと橋健向けニュース<BR>
+ノックは無用のあとの番組”ほんまかいな”<BR>
+今週で打ち切りです。<BR>
+やはり偉大な番組の後はつらいの～<BR>
+<BR>
+では　　　　　　　　　　　　　　　　　　notani<BR>
+<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?72<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00073/00112 FZC03004 橋本健一 RE: 久々です<BR>
+( 1)   98/03/29 20:41  00072へのコメント<BR>
+<BR>
+&gt;このごろ仕事の方がかなり忙しくてなかなかｐａｔｉｏの方も<BR>
+&gt;のぞけなくてみんな元気か？<BR>
+<BR>
+長時間通勤やから、忙しいと大変やな。<BR>
+俺も最近忙しくて、残業時間７０を超えてしまった。<BR>
+<BR>
+＞ほんとやったら同窓会の報告をせなあかんのやけど<BR>
+＞俺もちょっと行けなくてどんな感じか情報ないねん<BR>
+<BR>
+のっちが同窓会を欠席するとはめずらしい。<BR>
+増元は来たんやろなぁ。だんなに言われて、ホテルに泊ったんやろか。<BR>
+<BR>
+＞あと大久保がまた引っ越したみたいや<BR>
+<BR>
+よう引越しするやっちゃなぁ。大阪府内かな、府外かしら。<BR>
+<BR>
+＞ノックは無用のあとの番組”ほんまかいな”<BR>
+＞今週で打ち切りです。<BR>
+＞やはり偉大な番組の後はつらいの～<BR>
+ はは、１回も見ないうちに終了してしまった。”ほんまかいな”は<BR>
+記憶に残らんやろね。<BR>
+パペポも終わるし、いちゃもんてん（テレ朝の深夜番組、上岡司会）は<BR>
+終わるし、対決マイベスト１０（テレビ東京、上岡司会）は終わるし、<BR>
+たかじんの怒も終わるし、ニュースステーションの小宮悦子は辞めるし、<BR>
+なんか次々に終わっていくなぁ。<BR>
+--<BR>
+hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?73<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER39" onmouseout="HpbImgSwap('_HPB_ROLLOVER39', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER39', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER39"></a><BR>
+<BR>
+<BR>
+00074/00112 BXL00240 大門　哲士　　　 ローリングストーンズ<BR>
+( 1)   98/04/05 00:28                     コメント数：1<BR>
+<BR>
+どうも、毎度です。<BR>
+<BR>
+そうか、ノッチも同窓会いけんかったんか！ 結局、何人くらい集まったんやろか？<BR>
+<BR>
+ところで、先日大阪ドームにローリングストーンズの<BR>
+コンサートへ行ってきました。<BR>
+席がアリーナで前から12列目ですごく近くで見れた事もあり、<BR>
+ステージ上の雰囲気が良く感じられ良かったです！<BR>
+いや～、50歳過ぎても彼らパワーありますねぇ！<BR>
+ミック、まだまだ走り回ってました！<BR>
+キース、相変わらず元気です。<BR>
+<BR>
+そういえば、ピンクの電話の太ってる方が来てました。<BR>
+<BR>
+P.S.<BR>
+大久保の新住所の連絡はうちにもまだ来てませんです！<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?74<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00075/00112 FZC03004  橋本健一         RE:ローリングストーンズ<BR>
+( 1)   98/04/05 19:28  00074へのコメント<BR>
+<BR>
+＞席がアリーナで前から12列目ですごく近くで見れた事もあり、<BR>
+<BR>
+そんな直前で見れたとは、ええなぁ。<BR>
+以前、寺井、金城、佐伯と東京ドームにPaul McCartneyのコンサート<BR>
+に行った時は、外野席の最上段のほとんど後ろの方だったので、全然<BR>
+顔とか見えへんかった。ステージの横にスクリーンがあって、そこに<BR>
+映し出されるステージの映像を見て、ようやく顔がわかるような有り様<BR>
+でした。<BR>
+<BR>
+ピンクの電話のもう一人は、どんな奴やったっけ？<BR>
+--<BR>
+hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?75<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00076/00112 BXL00240  大門　哲士　　　 仁鶴の笑百科<BR>
+( 1)   98/04/12 20:03                     コメント数：1<BR>
+<BR>
+まいど。<BR>
+早速やけど、今年の阪神はこんなもんやろか？<BR>
+ちょっとは期待しててんけどなぁ？<BR>
+<BR>
+＞ピンクの電話のもう一人は、どんな奴やったっけ？<BR>
+<BR>
+しらんかなぁ？やせてて、脳天から高い声のでるねえちゃんや！<BR>
+<BR>
+話は変わるが、<BR>
+この土曜の仁鶴の笑百科に上沼恵美子のかわりに若井みどりが<BR>
+出てたわ！交代か？ピンチヒッターか？<BR>
+でも若井みどりもまぁまぁおもろかったで！<BR>
+<BR>
+大門<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?76<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER40" onmouseout="HpbImgSwap('_HPB_ROLLOVER40', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER40', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER40"></a><BR>
+<BR>
+<BR>
+00077/00112 FZC03004 橋本健一 RE:仁鶴の笑百科<BR>
+( 1)   98/04/12 22:27  00076へのコメント<BR>
+<BR>
+&gt;早速やけど、今年の阪神はこんなもんやろか？<BR>
+&gt;ちょっとは期待しててんけどなぁ？<BR>
+<BR>
+ほんまに。ニュースステーションで真弓が阪神の優勝予想<BR>
+しててんけどなぁ。まあ、北別府がそれを聞いて笑ろてたけど。(^_^;<BR>
+<BR>
+&gt;この土曜の仁鶴の笑百科に上沼恵美子のかわりに若井みどりが<BR>
+&gt;出てたわ！交代か？ピンチヒッターか？<BR>
+<BR>
+へー、それは見逃したなぁ。でも交代ではないと思うで。<BR>
+普通、交代する時は若手へ代わるもんやで。<BR>
+グルメデート (円広志 -&gt; 桂子米朝) しかり<BR>
+ノックは無用 (ノック -&gt; 桑原昇平 -&gt; 桂雀々) しかり<BR>
+ときめきタイムリー (上岡龍太郎 -&gt;  円広志) しかり<BR>
+ヤンタン土曜日 (桂三枝 -&gt; さんま) しかり<BR>
+若井みどりやったら年上（？）ちゃうか。<BR>
+<BR>
+--<BR>
+hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?77<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00078/00112 FZC03004 橋本健一 リンダ・マッカートニー死亡<BR>
+( 1)   98/04/20 23:29                     コメント数：1<BR>
+<BR>
+やはり、若井みどりは単なるピンチヒッターやったようやな。<BR>
+ところで今日、リンダ・マッカートニー死亡のニュースがありました。<BR>
+えらい若死やわ。<BR>
+--<BR>
+hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?78<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+<BR>
+00079/00112 BXL00240  大門　哲士　　　 RE:リンダ・マッカートニー死亡<BR>
+( 1)   98/05/03 08:41  00078へのコメント  コメント数：1<BR>
+ リンダ・マッカートニーは癌だったそうです。<BR>
+久しぶりにウィングスでも聞いて見ようかと思ってます。<BR>
+<BR>
+ところで、今、地元ローカルの四国放送で<BR>
+探偵物語してます。<BR>
+服部刑事（成田三樹夫）なつかしいです。いい味出してますね。渋いです！<BR>
+<BR>
+Daimon<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?79<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER41" onmouseout="HpbImgSwap('_HPB_ROLLOVER41', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER41', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER41"></a><BR>
+<BR>
+<BR>
+00080/00112 FZC03004  橋本健一         RE:リンダ・マッカートニー死亡<BR>
+( 1)   98/05/05 23:23  00079へのコメント<BR>
+<BR>
+&gt;ところで、今、地元ローカルの四国放送で<BR>
+&gt;探偵物語してます。<BR>
+&gt;服部刑事（成田三樹夫）なつかしいです。いい味出してますね。渋いです！<BR>
+<BR>
+関東地方では、昨年日本テレビで再放送してました。放送してることに<BR>
+気づいたのが途中になってからだったので、全放映を録画するという野望<BR>
+は果たせなかったけど、いくつか録画しました。<BR>
+(1)危険を買う男          賠償美津子<BR>
+(2)暴力組織              風間杜夫<BR>
+(3)夜汽車で来たあいつ    水谷豊<BR>
+(4)暴走儀式            <BR>
+(5)黒猫に罠を張れ        高品格<BR>
+(6)ダウンタウンブルース  古尾谷雅人<BR>
+<BR>
+それと、レコード店でショーグンのＣＤを買いました。<BR>
+Bad City(探偵物語のテーマ曲）最高です。 <BR>
+他に、「俺達は天使だ」のテーマ曲が入ってます。<BR>
+♪走りだしたら、何か答えがでるだろうなんて、俺もあてにはしてないさ<BR>
+♪してないさ<BR>
+この曲もシューグンやったとは、以外でした。いやぁ懐かしい。<BR>
+-- hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?80<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00081/00112 FZC03004  橋本健一         オリックス低迷<BR>
+( 1)   98/05/15 22:21<BR>
+<BR>
+日経新聞に山田久志のコラムがでてました。オリックスのことを書いて<BR>
+います。おもしろいので、引用してみます。<BR>
+------------------------------------------------------------<BR>
+最近、外出するのがゆうつである。食事に出かけても、講演の場でも、<BR>
+聞かれるのは、「山田さん、オリックスはどうしてこんなに弱くなった<BR>
+のですか」というのばかり。２，３年前にパ・リーグを連覇し、優勝争<BR>
+いの常連となったチームが、短期間でガタガタになるものだろうか。<BR>
+そんな時、私は「会社の経営と同じで、方針転換を急ぎすぎれば、こう<BR>
+いうケースは出ると思う。リストラも結構だが、その中に優秀な人材は<BR>
+いませんか。しまったと気付いた時には遅すぎることもある」と答える<BR>
+ことにしている。ニールは戻ってきたが、やはり、本西、馬場というベ<BR>
+テランの放出が痛かった。<BR>
+一般に、ベテランとは扱いにくいものである。現役時代の私も、晩年は<BR>
+首脳陣に迷惑をかけていた、と今思う。若手の登板機会を優先され、ロ<BR>
+ーテーションを一度とばされたものなら、「もう投げたくない」とごね<BR>
+る。内心は調子はよくないから打たれそうだな、と感じつつも、外から<BR>
+事実を指摘されると余計に腹が立ち、わがままな態度をとってしまう。<BR>
+そんな時期のある夜、当時阪急の投手コーチだった梶本隆夫さんが私の 自宅に来てくれたことがあった。「ちょっと話させてくれや」という感<BR>
+じだったが、私は「話なんて何もないです」と冷たい態度をとった記憶<BR>
+がある。それでも、梶本さんが帰ったあと、自分を心配してくれている<BR>
+のか、とうれしい気持ちがこみ上げてきたものだ。<BR>
+ベテランの扱いには神経を使うから、排除したほうが楽なのだが、彼ら<BR>
+の心をつかめば、その効果は計り知れない。力がありながらベンチに置<BR>
+かれたベテランは、チームの悪口を言い出すのが常だが、その逆もある。<BR>
+ある選手が首脳陣の方針に不満をもらした時、そうじゃないと言えるの<BR>
+は、経験豊富な年長者しかいない。実力者とはいえ、イチローはまだそ<BR>
+ういう立場にはないだろう。<BR>
+オリックス低迷の原因は、ベテラン抜きでも戦えると判断した現場の見<BR>
+誤りと、抜てきにこたえられない若手の伸び悩みにある。だれが悪いと<BR>
+いうよりチーム全体の問題、改革が性急すぎたのではないか。２年前の<BR>
+日本一戦士のうち、中島、野村、福良らも抜け、既にチームは大きく変<BR>
+わっている。故障者続出という不運で苦しんでいるヤクルトとは事情が<BR>
+違う。<BR>
+私が投手コーチだった９５年、オリックスは開幕投手に当時４０歳の佐<BR>
+藤を起用した。野田と星野の両エースの一方だけを立てたくないという<BR>
+判断からだったが、ベテランに望外の大役をまかせると感激してプレー<BR>
+以上のものをチームに与えてくれる。<BR>
+それを実践しているのが広島だ。大野を開幕投手に起用し、３６歳の生<BR>
+田を休ませながら使う気配りは、今の快進撃と無縁ではないだろう。<BR>
+-------------------------------------------------------------<BR>
+--<BR>
+hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?81<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER42" onmouseout="HpbImgSwap('_HPB_ROLLOVER42', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER42', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER42"></a><BR>
+<BR>
+<BR>
+00082/00112 RXK00515  野谷　武         ゼンジー北京<BR>
+( 1)   98/05/17 17:59                     コメント数：1<BR>
+<BR>
+こないだから発言しようとインターネット経由で<BR>
+ニフティに接続したらPATIOで発言できないんや<BR>
+題名は入力出来るけど発言内容が入力出来ない<BR>
+なもんでニフティマネジャーから接続します。<BR>
+<BR>
+こないだ日テレの夜１１：４５ごろから放映の”天声慎吾”に<BR>
+ゼンジー北京が出てた。<BR>
+番組の内容としては、ペンジー北京が香取慎吾やキャイーンに<BR>
+手品を教えるというもので<BR>
+ゼンジー北京がいうには、<BR>
+私の、しゃべりには全く無駄がない<BR>
+などと指導してた。<BR>
+ゼンジー北京の本名は渡辺重信と紹介されていた<BR>
+中国人やなかったんや！<BR>
+今週もその続きあるから良かったらみてみたら<BR>
+<BR>
+　　　　　　　　　　　　　　　　　　notani<BR>
+/<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?82<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00083/00112 FZC03004  橋本健一         RE:ゼンジー北京<BR>
+( 1)   98/05/24 09:23  00082へのコメント<BR>
+<BR>
+&gt;今週もその続きあるから良かったらみてみたら<BR>
+<BR>
+「天声慎吾」見ました。実に久しぶりにゼンジー北京見たなぁ。<BR>
+おもろかった。有意義な情報ありがとう、サンキュー、ダンクシュン<BR>
+<BR>
+&gt;私の、しゃべりには全く無駄がない<BR>
+&gt;などと指導してた。<BR>
+<BR>
+いやほんま、完璧に計算されつくした話術や。<BR>
+<BR>
+&gt;ゼンジー北京の本名は渡辺重信と紹介されていた<BR>
+&gt;中国人やなかったんや！<BR>
+<BR>
+「中国は広島地方の生まれあるよ」というギャグ知らんか？<BR>
+--<BR>
+hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?83<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER43" onmouseout="HpbImgSwap('_HPB_ROLLOVER43', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER43', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER43"></a><BR>
+<BR>
+<BR>
+00084/00112 BXL00240  大門　哲士　　　 明石海峡大橋<BR>
+( 1)   98/05/30 23:03                     コメント数：1<BR>
+<BR>
+明石大橋<BR>
+<BR>
+四国と本州がつながりました！<BR>
+先日明石の橋を渡り姫路の方まで行きましたが<BR>
+1時間半程度でつきました。<BR>
+大阪までも2時間見とけば行けそうです。<BR>
+便利になりました！！<BR>
+明石の橋の夜のライトアップも見応えあります。（ハイウェイオアシスからみた夜景）<BR>
+また、遊びに来てちょーだい！！<BR>
+<BR>
+daimon<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?84<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00085/00112 FZC03004  橋本健一         RE:明石海峡大橋<BR>
+( 1)   98/06/06 12:43  00084へのコメント<BR>
+<BR>
+&gt;大阪までも2時間見とけば行けそうです。<BR>
+<BR>
+大阪まで２時間とは近くになったなぁ。去年遊びに行った時の帰りは<BR>
+６：３０くらいに大門の家をでたんやったかなぁ。淡路島のフェリー<BR>
+が８：００にでて、９：００に須磨に着いて、１０：００に大阪に<BR>
+到着したから、それが２時間やったら速いわ。<BR>
+あとは渋滞と、フェリーの値段とのかねあいやね。<BR>
+--<BR>
+hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?85<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+<BR>
+00086/00112 FZC03004  橋本健一         上岡龍太郎ひとり会<BR>
+( 1)   98/06/09 23:10<BR>
+<BR>
+「笑っていいとも」に上岡龍太郎が出演したときに宣伝してた<BR>
+「上岡龍太郎ひとり会」を雑誌ピアでみつけました。<BR>
+ところが場所のアイランドホールがどこかわからん。地図にも<BR>
+のってへんようなマイナーな会場みたい。インターネットで検索して<BR>
+ようやく場所がわかりました。<BR>
+というわけで、先日「上岡龍太郎ひとり会」にいってきました。<BR>
+値段は２５００円と安い。内容は、まずオープニングというか前せつ<BR>
+というか、４５分ほどのしゃべりから始まりました。去年の独演会の<BR>
+時のように前座（そのときはテントでした）はなく、最初から最後まで<BR>
+上岡だけ。ネタはいつものようにマラソンネタ、あとタイムリーな話題<BR>
+として若乃花、小錦にからんで相撲ネタとか。<BR>
+引き続いて、３０分ほど映画「タイタニック」を語る。浜村淳の<BR>
+映画解説と違って、いかにこの映画がおもろないかという視点で<BR>
+さまざまなシーンをつっこみ倒してました。<BR>
+タイタニックをみてたら、もっとこのネタ笑えたかもしれん。<BR>
+そして、最後に「ジキルとハイド」をもじった「ヘンリー・リュウ・<BR>
+ジキール博士とハイド上岡」。これだけは、あんまりおもろなかった。(^_^<BR>
+--<BR>
+hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?86<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER44" onmouseout="HpbImgSwap('_HPB_ROLLOVER44', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER44', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER44"></a><BR>
+<BR>
+<BR>
+00087/00112 FZC03004 橋本健一 パペポ復活<BR>
+( 1)   98/07/19 23:06<BR>
+<BR>
+どうもひさしぶりです<BR>
+３月で終了したパペポが、また金曜の深夜に読売テレビで復活しました。<BR>
+タイトルは「鶴＋龍」。でもオンエアが３０分に短縮されてしまった。<BR>
+１回目、結構おもろかったで。<BR>
+それとナイトスクープで、<BR>
+ジャスコで会いましょう♪<BR>
+の替え歌で<BR>
+ジャスコで万引き、ダイエーで食い逃げ、ニチイで捕まり、ぶたばこへ♪<BR>
+というのをやってました。こんな唄はじめて聞いたわ。<BR>
+--<BR>
+hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?87<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+<BR>
+00088/00112 FZC03004  橋本健一         若井こずえ、倒れる<BR>
+( 1)   98/08/01 23:07                     コメント数：1<BR>
+<BR>
+<BR>
+先日「若井こずえ、倒れる」という記事をスポーツ新聞で見ました。<BR>
+重体て書いてたけど、大丈夫やろか？<BR>
+非常階段みやこみたいに、ならんかったらええけど。<BR>
+では、また。<BR>
+--<BR>
+hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?88<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER45" onmouseout="HpbImgSwap('_HPB_ROLLOVER45', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER45', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER45"></a><BR>
+<BR>
+<BR>
+00089/00112 RXK00515 野谷　武 RE: 若井こずえ、倒れる<BR>
+( 1)   98/08/09 15:18  00088へのコメント<BR>
+<BR>
+”若井こずえ、倒れる”　、へ～　知らんかった。<BR>
+東京方面のスポーツ新聞にもそんなローカルニュースが載るんやな。<BR>
+ちなみに”こずえ”って言うたらうるさくないほうか？<BR>
+<BR>
+先日、久々にお笑いネットワークを見た。<BR>
+こだま、ひびきが出でたけど<BR>
+おもろいわ<BR>
+純粋に漫才を見ることも少なくなってきたんで特にや<BR>
+<BR>
+それとすまんけどこないだｍａｃのシステムが壊れてしまって<BR>
+ＨＤの初期化をせなあかん状態になってしまった。<BR>
+みんなのメールアドレスもバックアップ出来んかったんで<BR>
+メールを送ってくれ！<BR>
+<BR>
+では　　　　　　　　　　　　　　　　notani<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?89<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00090/00112 BXL00240  大門　哲士　　　 ご無沙汰。帰阪日程です。<BR>
+( 1)   98/08/11 23:15<BR>
+<BR>
+まいど。ご無沙汰してます。<BR>
+<BR>
+コンピューターのトラブルや仕事、バンド活動<BR>
+かなりタイトで、なかなかpatioに入れませんでした。<BR>
+申し訳ない。<BR>
+<BR>
+さて、帰阪日程ですが、<BR>
+8/13～/15にしようと思ってます。<BR>
+なにかありましたら連絡宜しく。<BR>
+<BR>
+ではまた大阪で・・・。<BR>
+<BR>
+P.S.<BR>
+のっちへ<BR>
+システムが壊れたそうで・・・<BR>
+ご愁傷さまです。頑張って下さい。<BR>
+また、アドレス確認用のメール入れますので。<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?90<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00091/00112 RXK00515  野谷　武         いくたま神社<BR>
+( 1)   98/08/23 19:13<BR>
+<BR>
+どうも　<BR>
+先日のいくたま神社の落語情報やけど<BR>
+９月５、６日だそうです。<BR>
+どうりで全然人おらんかった訳や<BR>
+<BR>
+これは、ナイトインナイトの楽屋ニュースからの情報です。<BR>
+おまけに昼にあるそうで全然誤情報でした。<BR>
+<BR>
+もし暇やったら行ってみるわ<BR>
+<BR>
+では　　　　　　　　　　　　　　notani<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?91<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER46" onmouseout="HpbImgSwap('_HPB_ROLLOVER46', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER46', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER46"></a><BR>
+<BR>
+<BR>
+00092/00112 FZC03004 橋本健一 先日のパペポ<BR>
+( 1)   98/08/30 00:33<BR>
+<BR>
+先日パペポで、鶴瓶が<BR>
+「子供の頃、よしみちゃんに『アイスクリームもっといて』といわれて<BR>
+もった瞬間にパクッと反射的に食べてしもたんですよ。<BR>
+そしたらワー泣き出して。なんて俺はいやしいんやろと。<BR>
+まあ、子供やからしゃあないけどね。」<BR>
+という話をしてました。<BR>
+いやぁ、似たような話があるもんですな。<BR>
+俺も高校時代に、ある日クラブの練習後に西友でジュース飲んだりして、<BR>
+くつろいでいました。そこへバレー部の連中がやってきたんですな。<BR>
+オネちゃんに、１リットルのジュースのパックを「これもっといて」<BR>
+といわれたのを、「これやるわ」とききちがえてしまった。(*^_^*<BR>
+オネちゃんが戻ってきたときには、大分減ってしまいました。<BR>
+--<BR>
+hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?92<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00093/00112 FZC03004  橋本健一         広辞苑に「とほほ」<BR>
+( 1)   98/09/02 22:23<BR>
+<BR>
+今日の日経新聞によると、広辞苑に「茶髪」「まったり」「一押し」<BR>
+「ばついち」「目が点になる」「とほほ」「どたキャン」などの<BR>
+言葉が新たに盛り込まれるということです。<BR>
+「とほほ」は<BR>
+「自分が情けなくみじめな境遇にあることを弱々しく嘆く声」とした<BR>
+うえで「とほほほほ」と応用例も掲載<BR>
+ということだそうです。<BR>
+ぜひ、応用例に桂文福の「たぁー」ものせてほしいなぁ (^_^<BR>
+--<BR>
+hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?93<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00094/00112 FZC03004  橋本健一         今日はふみの日<BR>
+( 1)   98/11/23 22:43<BR>
+<BR>
+今日は２３日なので、ふみの日だそうです。ニュースステーション<BR>
+でいってました。というわけで、久しぶりに書き込みします。<BR>
+先週の鶴龍で、太平シローが復帰するていうてたけど、関西では<BR>
+テレビでてますか？？？<BR>
+ではまた<BR>
+--<BR>
+hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?94<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER47" onmouseout="HpbImgSwap('_HPB_ROLLOVER47', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER47', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER47"></a><BR>
+<BR>
+<BR>
+00095/00112 FZC03004 橋本健一 祝・佐伯結婚<BR>
+( 1)   98/12/05 12:12                     コメント数：1<BR>
+<BR>
+佐伯が結婚するそうですね。突然のお知らせにびっくりしました。<BR>
+まるで、石橋貴明のようやね。<BR>
+１２月１３日の結婚披露パーティーには出席するつもりです。 のっちは行かれへんらしいけど、大門は行くの？<BR>
+--<BR>
+hashimoto<BR>
+ この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?95<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00096/00112 RXK00515  野谷　武         RE:祝・佐伯結婚<BR>
+( 1)   98/12/07 22:18  00095へのコメント<BR>
+<BR>
+本当に久々の投稿です。<BR>
+みんな元気か～～<BR>
+今日、佐伯から電話があった<BR>
+<BR>
+なんか久しくみんなに会ってないから<BR>
+新しい情報があります。<BR>
+・佐伯は、７月に転職してたよ<BR>
+・たんべ、引っ越ししてたよ（住所はわからん）<BR>
+年賀状は、たぶん転送されるのでは？<BR>
+<BR>
+<BR>
+Ｐ.Ｓ　太平シローは、もう２度見ました。<BR>
+（人間まんだら、明石屋ＴＶ、久々のせいか今一昔のキレがなかったよ）<BR>
+<BR>
+では<BR>
+　　　　　　　　　　　　　notani<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?96<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER48" onmouseout="HpbImgSwap('_HPB_ROLLOVER48', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER48', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER48"></a><BR>
+<BR>
+<BR>
+00097/00112 FZC03004  橋本健一         佐伯結婚披露パーティー・レポート<BR>
+( 1)   98/12/14 17:27<BR>
+<BR>
+こん＊＊は、レポーターのタージンです。(^_^;<BR>
+佐伯の結婚披露パーティーに行ってきましたので、報告します。<BR>
+奥さんは、べっぴんさんでした。テニススクールで知り合ったそうです。<BR>
+結婚式はしていないそうです。新婚旅行は、「来年にでも行こうかな」<BR>
+と言ってました。場所はまだ決めてないそうです。<BR>
+奥さんは北巽の病院に勤めてるそうです。<BR>
+佐伯は、夏に食品会社を辞めて、壁の工事、修理屋（佐官みたいなもの？）<BR>
+に務めだしたそうです。本人いわく、ビルディング・ドクターと<BR>
+名乗っています。<BR>
+<BR>
+<BR>
+結婚披露パーティーに来た布施高校関係者は、寺井、金城、たんべ、<BR>
+谷口、高本、卓球部の住本さん、卓球部の先輩、です。<BR>
+木内は来る予定だったのが、急な仕事で来れなくなったみたい。<BR>
+皆の近況は、<BR>
+金城が、来年おめでた、だそうです。<BR>
+たんべは、１１月に引っ越しました。府営住宅に抽選で当たったそうです。<BR>
+家賃は、なんと￥２１、０００。大門のところより安い。(^_^;<BR>
+<BR>
+かんぴ情報によると、大久保は広島に転勤になったらしい。<BR>
+たんべの家に、吉岡から「結婚しました」ハガキが来たそうです。<BR>
+谷口は、３歳と１歳の男の子がいるそうです。<BR>
+寺井は、バンドやってて、ＣＤ録音をしたそうです。曲目は<BR>
+&quot;I saw her standing there&quot;  &quot;She loves you&quot;<BR>
+今度、年末に<BR>
+&quot;And I love her&quot;  &quot;If I fell in love with you&quot; &quot;Nowhere man&quot;<BR>
+を録音する予定だそうです。<BR>
+高本のだんなさんが、会社をやめて事業を始めたそうです。<BR>
+住本さんは、現在無職だそうです。<BR>
+<BR>
+以上、結婚披露パーティーレポートでした。<BR>
+<BR>
+PS.  Niftyには、残念ながら誰も入ってなかった。<BR>
+--<BR>
+hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?97<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00098/00112 RXK00515 野谷　武 若井こずえ死去<BR>
+( 1)   99/01/15 13:50                     コメント数：1<BR>
+<BR>
+寂しいことにマイケル・ジョーダンが引退したけど<BR>
+大阪では、若井こずえが亡くなりました。<BR>
+１３日午後<BR>
+死因：急性肺炎<BR>
+例のごとく木曜のナイトインナイトで追悼番組を放送<BR>
+してた。<BR>
+ゲストは、平川幸夫、中田ボタン、ちゃらんぽらん大西<BR>
+いく・くる、池のめだか、若井みどり<BR>
+このメンバーの中でも平川の次に年上だそうです。<BR>
+（５１歳）<BR>
+昔は、ぼけをみどりが担当してたそうです。<BR>
+最近は、漫才休業中だったとか。。。<BR>
+こずえの方が女優を目指してたらしい。<BR>
+<BR>
+関西芸能ニュースでした。<BR>
+　　　　　　　　　　　　　　　　　　野谷<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?98<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER49" onmouseout="HpbImgSwap('_HPB_ROLLOVER49', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER49', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER49"></a><BR>
+<BR>
+<BR>
+00099/00112 FZC03004  橋本健一         RE:若井こずえ死去<BR>
+( 1)   99/01/17 23:49  00098へのコメント<BR>
+<BR>
+<BR>
+&gt;大阪では、若井こずえが亡くなりました。<BR>
+<BR>
+新聞で、若井こずえの死亡記事を見ました。<BR>
+<BR>
+&gt;例のごとく木曜のナイトインナイトで追悼番組を放送<BR>
+&gt;してた。<BR>
+<BR>
+見たかったなあ、追悼番組。「知ってるつもり」でやってくれへんかな。<BR>
+女優を目指してたとは意外やな。新喜劇の女優ちゃうか？<BR>
+島田珠代とか末成由美とか、そのへんの路線で。<BR>
+<BR>
+--<BR>
+hashimoto            tell me, ガツン<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?99<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00100/00112 BXL00240 大門　哲士　　　 どうも！S.Daimon<BR>
+( 1)   99/01/24 23:19                     コメント数：1<BR>
+<BR>
+どうも、御無沙汰です。<BR>
+なかなかアップできず申し訳ない。<BR>
+<BR>
+ところで、若井小づえの死去、びっくりした。<BR>
+ナイトインナイトで知りました。<BR>
+その週末の土曜にも、新野新の司会、オール阪神巨人がゲスト、もちろん<BR>
+みどりも一緒に追悼番組してた。全盛の頃の漫才がVTRでしてて懐かしかった。<BR>
+しかし最近よく死にますね。大屋政子、土井まさる・・・。<BR>
+<BR>
+佐伯の結婚パーティーの情報もどうもです。<BR>
+日曜日の夕方という時間でしたので、出席できませんでした。<BR>
+みんな元気そうですね。<BR>
+寺井のバンド活動の話し、興味があります。CD作ったそうで・・・．<BR>
+曲名をみるとビートルズのコピーバンドですね！ライブとかもやってるんですかね？<BR>
+その他、なにか知ってたら教えて下さい。<BR>
+わたしも、昨日会社の新年会で余興でライブしました。身内が観客ということもあり<BR>
+盛り上がって良かったです。<BR>
+では、また。<BR>
+<BR>
+S.Daimon<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?100<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER50" onmouseout="HpbImgSwap('_HPB_ROLLOVER50', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER50', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER50"></a><BR>
+<BR>
+<BR>
+00101/00112 FZC03004  橋本健一         RE:どうも！S.Daimon<BR>
+( 1)   99/01/31 16:41  00100へのコメント<BR>
+<BR>
+&gt;しかし最近よく死にますね。大屋政子、土井まさる・・・。<BR>
+<BR>
+いや，ほんまやね。土井まさるが死んでもたら、「ヒントでピント」<BR>
+の司会は誰がやるんやろ？  （＾＿＾<BR>
+それに、２７日の朝刊の死亡蘭に、元阪神タイガースの強打者、<BR>
+土井垣が出てました。昭和２０年代前半に、別当薫、藤村富美男、<BR>
+土井垣武のクリーンアップで、ダイナマイト打線と恐れられた、<BR>
+強打、強肩のキャッチャーでした。<BR>
+キャッチャーといえば、先日の「知ってるつもり」で、戦前に若林<BR>
+とバッテリーを組んだ、カイザー田中のことが、紹介されていましたね。<BR>
+<BR>
+&gt;寺井のバンド活動の話し、興味があります。CD作ったそうで・・・．<BR>
+&gt;曲名をみるとビートルズのコピーバンドですね！ライブとかもやって<BR>
+るんですかね？<BR>
+<BR>
+そうそう、ビートルズを専門にやってるみたい。<BR>
+寺井は、やはりドラムで、リンゴ・スターの曲は、寺井がボーカル<BR>
+をやるそうです。<BR>
+レパートリーはなんと、８０曲くらいもあるそうです。すごい！！<BR>
+桂枝雀でも、持ちネタは６０やというのに！！<BR>
+完成度は低い、と本人はいってました。<BR>
+ライブの話はきかへんかったなぁ、どやろ？<BR>
+<BR>
+--<BR>
+hashimoto            tell me, ガツン<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?101<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00102/00112 FZC03004 橋本健一 プラザホテル解散のニュース<BR>
+( 1)   99/02/11 22:52<BR>
+<BR>
+昨日のニュースで、名門のプラザホテルが赤字のため解散、といってました。<BR>
+いやあ、びっくりしましたねー。<BR>
+親会社は大阪朝日放送だったんですね。<BR>
+プラザかロイヤルといえば、高級ホテルというイメージやったのに。<BR>
+プラザホテルといえば昔、日産ミュージックギャラリー・ポップ対歌謡曲<BR>
+を見に行ってみると、高校野球でやってなくて、プラザのロビーに入って<BR>
+座ってたら、ガードマンに追い出されたことがありましたね。<BR>
+その、プラザホテルも解散とは、まさに平成大不況ですねぇ。<BR>
+こわいですねぇ、おそろしいですねぇ、恐怖ですねぇ。（ここは、淀川長治ふ<BR>
+うに）<BR>
+--<BR>
+hashimoto            Tell me, ガツン<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?102<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER51" onmouseout="HpbImgSwap('_HPB_ROLLOVER51', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER51', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER51"></a><BR>
+<BR>
+<BR>
+00103/00112 RXK00515 野谷　武 トゥナイト解散<BR>
+( 1)   99/02/12 20:49<BR>
+<BR>
+野谷です。<BR>
+<BR>
+最近は、オムロンの残業規制為、定時の日が<BR>
+続いてます。<BR>
+暇は暇でそれでもいいんやけど、ちょっと収入が・・・<BR>
+<BR>
+関西漫才界もこずえ・みどりがいなくなってしまったけど<BR>
+さらに３月一杯でトゥナイトが解散します。<BR>
+理由は、しずか（細い方）がアメリカに留学<BR>
+したいので・・・らしい<BR>
+せっかく売れてきてたのに残念！！<BR>
+やっぱりハイヒールにがんばってもらうか<BR>
+<BR>
+では<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?103<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00104/00112 FZC03004 橋本健一 桂枝雀が自殺未遂<BR>
+( 1)   99/03/25 22:41                     コメント数：1<BR>
+<BR>
+橋本＠枝雀ファンです。<BR>
+<BR>
+今日の日経新聞朝刊に、「桂枝雀さんが自殺を図り、意識不明の重体」<BR>
+という記事がでてました。<BR>
+何か情報あったら教えて。<BR>
+<BR>
+--<BR>
+hashimoto            tell me, ガツン<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?104<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER52" onmouseout="HpbImgSwap('_HPB_ROLLOVER52', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER52', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER52"></a><BR>
+<BR>
+<BR>
+00105/00112 RXK00515 野谷　武 RE:桂枝雀が自殺未遂<BR>
+( 1)   99/03/27 21:56  00104へのコメント  コメント数：1<BR>
+<BR>
+枝雀　自殺未遂の件やけど<BR>
+さすが橋健、この件について絶対　ｐａｔｉｏに情報か<BR>
+質問が来てると思ったら案の定！<BR>
+<BR>
+俺も毎日新聞で読んでびっくり！<BR>
+さすが大阪だけあって取り上げ方も大きいわ<BR>
+特にスポーツ新聞は、裏一面トップ<BR>
+でも買ったわけではないので詳しい内容まではわからん<BR>
+<BR>
+ちなみに毎日新聞では、<BR>
+前にも一度自殺を図ったらしいこと<BR>
+２年ぐらい前から身体をこわしていたらしく<BR>
+（そういや～あんまり見てない）<BR>
+それが原因？<BR>
+それで今も意識不明の重傷だそうです。<BR>
+<BR>
+でも関西ローカルのＴＶ番組では、ほとんど話題にはあがってない。<BR>
+（たぶん痛快エブリディでは、取り上げていると思うけど・・）<BR>
+何分暗い話題やし、死んでたら取り上げるけど<BR>
+未遂では、そんなにつっこんだことは言うわんやろ。<BR>
+<BR>
+橋健、インターネットの掲示版でも情報知ってる方教えて！<BR>
+って投稿したら新しい情報が来るかも？<BR>
+<BR>
+NOTANI<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?105<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00106/00112 FZC03004  橋本健一         RE:桂枝雀が自殺未遂<BR>
+( 1)   99/03/28 18:18  00105へのコメント<BR>
+<BR>
+橋本＠枝雀マニアです。<BR>
+<BR>
+さっそくの返事おおきに。<BR>
+<BR>
+&gt;でも関西ローカルのＴＶ番組では、ほとんど話題にはあがってない。<BR>
+&gt;（たぶん痛快エブリディでは、取り上げていると思うけど・・）<BR>
+&gt;何分暗い話題やし、死んでたら取り上げるけど<BR>
+&gt;未遂では、そんなにつっこんだことは言うわんやろ。<BR>
+<BR>
+ドンドコドンで、上岡と雀々が何かいうんちゃうかと思って<BR>
+きかれへんのが残念や。<BR>
+<BR>
+<BR>
+&gt;橋健、インターネットの掲示版でも情報知ってる方教えて！<BR>
+&gt;って投稿したら新しい情報が来るかも？<BR>
+<BR>
+インターネットの掲示版て、利用したことないです。<BR>
+日刊スポーツのホームページをみたところ、以下の記事が<BR>
+でてました。<BR>
+<BR>
+人気落語家の桂枝雀さん（５９＝本名・前田達）が１３日に大阪・吹田市<BR>
+の自宅で首つり自殺を図り、意識不明の重体に陥っていることが２４日、<BR>
+明らかになった。枝雀さんは現在、同市内の病院に入院しているが、<BR>
+危険な状態にあるという。遺書などは残されていなかった。<BR>
+１９７３年（昭和４８年）に２代目枝雀を襲名した前後に患ったうつ病<BR>
+が９５年（平成７年）に再発し、９７年になって糖尿病や高血圧症<BR>
+なども併発。９８年２月から芸能活動を休止し、闘病を続けていた。<BR>
+--<BR>
+hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?106<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER53" onmouseout="HpbImgSwap('_HPB_ROLLOVER53', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER53', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER53"></a><BR>
+<BR>
+<BR>
+00107/00112 FZC03004 橋本健一 枝雀ついに亡くなってしまいました<BR>
+( 1)   99/04/21 23:39<BR>
+<BR>
+<BR>
+橋本＠枝雀大ファンです。<BR>
+<BR>
+自殺未遂で入院してから、ついに亡くなってしまいました。<BR>
+ショック。(T_T<BR>
+回復して、復帰するのを期待してたんやけどなー。<BR>
+もう、枝雀独演界に行こうと思っても、かなわんようになってしもた。<BR>
+トホー。(T_T<BR>
+関西では、追悼番組やってませんか？<BR>
+<BR>
+インターネットで検索したところ、以下の記事がでてました。<BR>
+<BR>
+「吹田市桃山台の自宅３階の廊下の手すりに結びつけたひもで<BR>
+首をつっているのを、遊びにきていた姪の前山志之さん（２０）<BR>
+が発見した。<BR>
+　呼びかけても返事がなく、ぐったりしていたため、近くに住む<BR>
+弟子の桂雀々さんに連絡。駆けつけた雀々さんとともにひもを外し、<BR>
+１１９番した。枝雀さんは、ほとんど意識がない状態だったため、<BR>
+自宅には救急車ではなく、医療処置を施せる「ドクターカー」<BR>
+が駆けつけた。」<BR>
+<BR>
+--<BR>
+hashimoto<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?107<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00108/00112 BXL00240  大門　哲士　　　 きん枝災難<BR>
+( 1)   99/05/18 19:43                     コメント数：1<BR>
+<BR>
+きん枝災難<BR>
+<BR>
+先日、桂きん枝が車上荒らしにあったそうです。<BR>
+車内にあった金品5万円相当が盗まれました。<BR>
+しかし、同じく車内にあったきん枝の独演会のチケット<BR>
+約100枚（30万円相当）にはいっさい手を付けられておらず、<BR>
+きん枝は2重のショックに打ちひしがれていたそうです。<BR>
+<BR>
+スポーツ報知より。<BR>
+<BR>
+P.S.<BR>
+枝雀の死去、ほんとに残念・・・。<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?108<BR>
+ <BR>
+<BR>
+<BR>
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::<a href="index.html" id="_HPB_ROLLOVER54" onmouseout="HpbImgSwap('_HPB_ROLLOVER54', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER54', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER54"></a><BR>
+<BR>
+<BR>
+00109/00112 FZC03004 橋本健一 RE:きん枝災難<BR>
+( 1)   99/05/23 22:02  00108へのコメント<BR>
+<BR>
+<BR>
+どうも、久しぶりです。<BR>
+<BR>
+＞しかし、同じく車内にあったきん枝の独演会のチケット<BR>
+＞約100枚（30万円相当）にはいっさい手を付けられておらず、<BR>
+＞きん枝は2重のショックに打ちひしがれていたそうです。<BR>
+<BR>
+アハハー、２重のショックか、それはええなぁ。<BR>
+独演会の切符では、金目にならんもんなぁ。<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?109<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00110/00112 BXL00240  大門　哲士　　　 元気か？<BR>
+( 1)   00/04/22 12:49<BR>
+<BR>
+久しぶりです。元気か？<BR>
+徳島もすっかり春です。<BR>
+元気でやってます！ <BR>
+鶴と龍の最終回は紳介とさんまが来て、おもろかった。<BR>
+<BR>
+では。<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?110<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00111/00112 FZC03004  橋本健一         盗作・パクリ・オマージュ・リスペクト<BR>
+( 1)   00/05/03 22:47<BR>
+<BR>
+<BR>
+橋本です<BR>
+皆さんどうも、ひさしぶりです。<BR>
+<BR>
+先日の日曜日、ＦＭラジオをきいていると、山下達郎サンデーソングブック<BR>
+をやってました。（というより聴こうと思ってきいていたのですが）<BR>
+そこで、盗作・パクリ・似たもの特集をやってました。<BR>
+ロックというのは、コード進行の組み合わせの音楽であり、感じがにてたら<BR>
+盗作というものではない。盗作・パクリと、オマージュ、リスペクト、<BR>
+コラージュとは違うのだそうです、何だかよくわかりませんが。<BR>
+低俗に、あの曲はあの曲のパクリだ、とあげつらうのではなく、もっとレベル<BR>
+の高い観点から、とりあげるといってました。<BR>
+<BR>
+ジョージ・ハリスンの大ヒット曲「マイ・スィート・ロード」は盗作として<BR>
+告訴され、敗訴したらしいです。（初めて知った）<BR>
+そこで、原告の曲（曲名、ミュージシャンともに失念）、続いてジョージ・<BR>
+ハリスン「マイ・スィート・ロード」２曲続けてオンエア。<BR>
+アレンジがずいぶん異なっており、これが盗作とは少しジョージ・ハリスン<BR>
+に気の毒と、達郎はコメントしていました。<BR>
+<BR>
+日本での盗作さわぎとして、もっとも大きなものは、八神じゅんこ「パープル・<BR>
+タウン」。同じ年にアメリカでヒットしたレイ・ケネディの「ユー・オータ・<BR>
+ノー・バイ・ナウ」<BR>
+これも、２曲続けてオンエア。元曲に続いてパープル・タウンを聴くと、やはり<BR>
+そっくり。達郎いわく「同じ年にやってはいけませんねぇ」<BR>
+このパープル・タウンは、前半の曲調と、後半の「パープル・タウン、<BR>
+パープル・タウン」というところで、まったくがらりとかわる。<BR>
+達郎いわく「同業者として不思議なのは、なぜ後半の曲調で１曲作らなかったん<BR>
+ですかねぇ」<BR>
+<BR>
+八神じゅんこは、次ぎの「水色のあめ」もニール・セダカの曲の盗作か、<BR>
+という話になったらしい。<BR>
+<BR>
+菊池桃子「ナイル・イン・ブルー」これも同じ年のアメリカでヒットした曲が元曲<BR>
+で、２曲続けてきくと、まったく同じでした。達郎いわく「これはひどい。これを<BR>
+きくと、他の盗作などかわいいもんです。菊池桃子さんが気の毒ですね」<BR>
+<BR>
+竹内マリア「ドリーム・オブ・ユー」このイントロが、ドナ・サマーの「マイ・<BR>
+リメンバー・イエスタデイ」によく似ている。レコードが発売された後で、<BR>
+このことに気付いたディレクターが激怒して、レコード発売停止、アレンジャー<BR>
+をかえて、山下達郎にたのみ、別テイクがアルバムに収められることになった。<BR>
+<BR>
+日本の曲で、とりあげたものは、全てアレンジャーと作曲家が別人のものです。<BR>
+そうすると、お互いに責任を相手のせいにできるということで。<BR>
+<BR>
+ポール・マッカートニーの「ヘイ・ジュード」は、「ラスト・ダンスは私に」の<BR>
+曲に感動したポールが、ああいう感じの曲を作りたい、ということで、できた曲<BR>
+だそうです。なので、「ラスト・ダンスは私に」のメロディで「ヘイ・ジュード」<BR>
+が唄えてしまう。これに目を付けたのが大滝永一で、「ラスト・ダンスはヘイ・<BR>
+ジュード」<BR>
+なる曲をつくったそうです。 <BR>
+--<BR>
+Hashimoto<BR>
+<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?111<BR>
+ <BR>
+<BR>
+<BR>
+<BR>
+00112/00112 BXL00240  大門　哲士　　　 増元よりメール<BR>
+( 1)   00/07/02 10:37<BR>
+<BR>
+毎度。<BR>
+先日、増元よりふいにメールが来ました。<BR>
+ケーブルテレビに加入し、そのインターネットサービスにも契約したので<BR>
+メール出してみたとのこと。年賀状に書いてあったアドレスを見たようです。<BR>
+メールの内容でノッチとはしけんのアドレスを教えてほしいとの内容が<BR>
+あったので、特に問題ないかと思い教えときました。<BR>
+増元からメールが来るかも知れません。よろしゅうに。<BR>
+<BR>
+この発言に対するコメント<BR>
+https://iw.nifty.com/iw/nifty/patioid/BXL00240/1/com.cgi?112<BR>
+ <BR>
+<BR>
+end</P>
+<P align="center"><a href="index.html" id="_HPB_ROLLOVER1" onmouseout="HpbImgSwap('_HPB_ROLLOVER1', 'logo7.gif');" onmouseover="HpbImgSwap('_HPB_ROLLOVER1', 'logo71.gif');"><img src="logo7.gif" width="161" height="28" border="0" alt="TOPページへ" name="_HPB_ROLLOVER1"></a><BR>
+</P>
+<P align="right">
+<script LANGUAGE="JavaScript">
+<!--
+xx = escape(document.referrer);
+yy = "";
+for (i = 0; i < xx.length; i++) {
+zz = xx.charAt(i);
+yy += (zz == "+") ? "%2B" : zz;
+}
+document.write('<img width=1 height=1 ');
+document.write('src="http://park11.wakwak.com/~bassman/cgi-bin/mhacclog.cgi');
+document.write('?WG01');
+document.write('+PATIOLOG');
+document.write('+',yy,'">');
+// -->
+</script><A href="http://b-harbot.so-net.ne.jp/a.jsp?hbxid=180775"><IMG src="http://b-harbot.so-net.ne.jp/b.jsp?hbxid=180775" border="0"></A><BR>
+<!--shinobi1-->
+<SCRIPT src="http://j8.shinobi.jp/ufo/101245407"></SCRIPT>
+</P>
+<DIV align="right">
+<noscript><A href="http://x8.shinobi.jp/bin/gg?101245407" target="_blank"><IMG src="http://x8.shinobi.jp/bin/ll?101245407" border="0"></A><br>
+<A style="font-size:80%" href="http://www.shinobi.jp/" target="_blank">アクセスカウンタ</A></noscript>
+</DIV>
+<P align="right">
+<!--shinobi2--><BR>
+<BR>
+<BR>
+<BR>
+</P>
+</BODY>
+</HTML>
